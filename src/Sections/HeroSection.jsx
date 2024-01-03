@@ -38,7 +38,7 @@ const HeroSection = () => {
       ))}
       </div>
 
-      <motion.div variants={fadeIn('left', 'spring', 0.85, 0.77)}  className='lg:mt-0 mt-[35rem] relative hero__border'> 
+      <motion.div variants={fadeIn('left', 'spring', 0.65, 0.77)}  className='lg:mt-0 mt-[35rem] relative hero__border'> 
         <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="myImage" className='sm:w-[420px] w-[400px] sm:h-[480px] h-[470px] object-cover' />
       </motion.div>
       </section>

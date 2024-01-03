@@ -10,7 +10,7 @@ const AboutSection = () => {
   return (
     <>
     <section className={`${Styles.paddingX} ${Styles.paddingY} mt-24`}>
-        <TypingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl text-3xl' />
+        <TypingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
 
         <div className="flex md:flex-row flex-col justify-between mt-11">

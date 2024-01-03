@@ -8,7 +8,7 @@ import { experience } from '../Utils/Data';
 
 const Experience = () => {
   return (
-    <section className={`${Styles.paddingY}`}>
+    <section className={`${Styles.paddingY} mt-12`}>
         <TypingText title='Journey & Experience ' textStyles='flex justify-center items-baseline sm:text-[1.7em] xm:text-[1.6em] text-[1.2em]' />
 
 

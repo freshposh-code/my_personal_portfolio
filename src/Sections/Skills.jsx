@@ -15,7 +15,7 @@ const Skills = () => {
 
   return (
     <section className={`${Styles.paddingY} ${Styles.paddingX}`}>
-         <TypingText title='Skills ' textStyles='flex justify-center items-baseline sm:text-4xl text-3xl' />
+         <TypingText title='Skills ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
          <motion.h1 variants={textVariant2} className="font-bold text-center my-2 dark:text-white leading-7"><span className="text-xl font-extrabold">Technical Proficiencies.</span> This succinctly indicates the
           cover of my technical expertise and programming skills. It provides professional and clear introduction to the subsequent list
@@ -29,7 +29,7 @@ const Skills = () => {
 
          <div style={{fontWeight: 700}} className='w-[100%] h-[100%] grid md:grid-cols-8 grid-cols-4 sm:gap-16 gap-5'>
             {circularProgressbar.map((item, index) => (
-                <motion.div variants={fadeIn("up", 'tween', index * 0.27, 0.28)} key={item.skillText}>
+                <motion.div variants={fadeIn("up", 'tween', index * 0.27, 0.33)} key={item.skillText}>
             <AnimatedProgressProvider 
               valueStart={item.valueStart}
               valueEnd={item.valueEnd}

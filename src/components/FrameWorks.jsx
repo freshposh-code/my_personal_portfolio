@@ -12,7 +12,7 @@ const FrameWorks = () => {
   
     <div style={{fontWeight: 700}} className='w-[100%] h-[100%] grid md:grid-cols-8 grid-cols-4 sm:gap-16 gap-5'>
     {circularProgressbarII.map((item, index) => (
-        <motion.div variants={fadeIn("up", 'tween', index * 0.25, 0.28)} key={item.skillText}>
+        <motion.div variants={fadeIn("up", 'tween', index * 0.25, 0.33)} key={item.skillText}>
     <AnimatedProgressProvider 
       valueStart={item.valueStart}
       valueEnd={item.valueEnd}
