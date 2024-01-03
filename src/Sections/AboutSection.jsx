@@ -30,7 +30,7 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <motion.p variants={fadeIn('up', 'tween', 0.25, 0.33)} className='font-semibold max-w-[610px] leading-10 text-lg md:mt-0 mt-10 dark:text-white'>
+            <motion.p variants={fadeIn('up', 'tween', 0.25, 0.33)} className='font-semibold max-w-[610px] sm:leading-10 leading-8 sm:text-lg text-base md:mt-0 mt-10 dark:text-white'>
               HI👋, i'm Farouk, I'm a self-taught frontend developer with a passion for crafting modern, user-friendly interfaces for websites,
                I come from a background of self-learning in development, 
                I love coding and have seen myself grow through the years. Coding has become an everyday task for me,

@@ -17,9 +17,9 @@ const Skills = () => {
     <section className={`${Styles.paddingY} ${Styles.paddingX}`}>
          <TypingText title='Skills ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
-         <motion.h1 variants={textVariant2} className="font-bold text-center my-2 dark:text-white leading-7"><span className="text-xl font-extrabold">Technical Proficiencies.</span> This succinctly indicates the
+         <motion.p variants={textVariant2} className="font-bold text-center my-2 dark:text-white leading-7"><span className="text-xl font-extrabold">Technical Proficiencies.</span> This succinctly indicates the
           cover of my technical expertise and programming skills. It provides professional and clear introduction to the subsequent list
-           of programming languages and frameworks i possess.</motion.h1>
+           of programming languages and frameworks i possess.</motion.p>
 
            <div className="flex items-baseline">
            <motion.h1 variants={textVariant2} className='font-extrabold sm:text-2xl xm:text-lg text-sm py-2 dark:text-white'>Programming Languages</motion.h1>
