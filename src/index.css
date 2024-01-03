@@ -80,8 +80,7 @@
 }
 
 .icon:hover {
-    transform: scale(1.2);
-    /* background-color: #0000ff; */
+    transform: scale(1.3);
 }
 
 @media screen and (max-width: 1025px) {
