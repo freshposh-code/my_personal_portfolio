@@ -1,0 +1,1 @@
+export {default as NikeDetails} from './NikeDetails'

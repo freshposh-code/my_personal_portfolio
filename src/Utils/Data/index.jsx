@@ -1,6 +1,7 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { css, html, javascript, react } from "../../assets"
+import { css, firebase, html, javascript, poshnike, react, redux, tailwind } from "../../assets"
 import { LinkedIn, Twitter, WhatsApp } from "@mui/icons-material"
+import VisibilityIcon from '@mui/icons-material/Visibility';
 
 export const navIcons = [ 
     {
@@ -225,9 +226,44 @@ export const experience = [
         learnII: 'Self-learning through personal projects, open-source contributions.',
         apply: 'Application:',
         applyII: 'Gained expertise in Redux, Next.js (with TypeScript), Context API for state management.',
-        project: 'Projects: my ever first react project. oct2022',
+        project: 'Projects: my first ever react project. oct2022',
         background: 'bg-white sm:p-2 p-1',
         button: 'first react project',
         buttonII: 'Project UI'
+    },
+]
+
+export const project = [
+    {
+        id: 1,
+        projectIMG: poshnike,
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/NikeCommerce',
+        visibility: <VisibilityIcon />,
+        linkvisible: 'https://poshnike-ecommerce.netlify.app/',
+        head: 'Nike Store',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        path: '/nikedetails',
+
+        tools: [
+            {
+                languages: react,
+                alt: 'react'
+            },
+            {
+                languages: redux,
+                alt: 'redux'
+            },
+            {
+                languages: firebase,
+                alt: 'redux'
+            },
+            {
+                languages: tailwind,
+                alt: 'redux'
+            },
+        ]
     },
 ]

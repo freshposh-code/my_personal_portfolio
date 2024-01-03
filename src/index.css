@@ -98,7 +98,7 @@
   }
 
   .card-shadow {
-    box-shadow: 0 0 15px rgb(0, 18, 180);
+    box-shadow: 0 0 12px rgba(0, 26, 255, 0.79);
   }
 
 @media screen and (max-width: 1025px) {
