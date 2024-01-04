@@ -1,7 +1,8 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { css, firebase, html, javascript, poshnike, react, redux, tailwind } from "../../assets"
+import { css, firebase, html, javascript, omni, poshnike, react, redux, tailwind } from "../../assets"
 import { LinkedIn, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import PinterestIcon from '@mui/icons-material/Pinterest';
 
 export const navIcons = [ 
     {
@@ -234,6 +235,99 @@ export const experience = [
 ]
 
 export const project = [
+    {
+        id: 1,
+        projectIMG: poshnike,
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/NikeCommerce',
+        visibility: <VisibilityIcon />,
+        linkvisible: 'https://poshnike-ecommerce.netlify.app/',
+        head: 'Nike Store',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        path: '/nikedetails',
+
+        tools: [
+            {
+                languages: react,
+                alt: 'react'
+            },
+            {
+                languages: redux,
+                alt: 'redux'
+            },
+            {
+                languages: firebase,
+                alt: 'redux'
+            },
+            {
+                languages: tailwind,
+                alt: 'redux'
+            },
+        ]
+    },
+    {
+        id: 2,
+        projectIMG: omni,
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/ModernCrypto-App',
+        visibility: <PinterestIcon />,
+        linkvisible: 'https://www.pinterest.com/pin/1105211564789008713/',
+        siteLink: 'https://crypto-access.netlify.app/',
+        head: 'Crypto Landing Page',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        path: '/nikedetails',
+
+        tools: [
+            {
+                languages: react,
+                alt: 'react'
+            },
+            {
+                languages: 'https://avatars.githubusercontent.com/u/8546082?s=280&v=4',
+                alt: 'redux'
+            },
+            {
+                languages: tailwind,
+                alt: 'redux'
+            },
+        ]
+    },
+    {
+        id: 1,
+        projectIMG: poshnike,
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/NikeCommerce',
+        visibility: <VisibilityIcon />,
+        linkvisible: 'https://poshnike-ecommerce.netlify.app/',
+        head: 'Nike Store',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        path: '/nikedetails',
+
+        tools: [
+            {
+                languages: react,
+                alt: 'react'
+            },
+            {
+                languages: redux,
+                alt: 'redux'
+            },
+            {
+                languages: firebase,
+                alt: 'redux'
+            },
+            {
+                languages: tailwind,
+                alt: 'redux'
+            },
+        ]
+    },
     {
         id: 1,
         projectIMG: poshnike,

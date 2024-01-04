@@ -7,5 +7,6 @@ import poshnike from './PoshNike.scn.png'
 import redux from './redux.png'
 import tailwind from './tailwind.png'
 import firebase from './Firebase.png'
+import omni from './Omnicreativora.jpg'
 
-export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase}
+export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni}
