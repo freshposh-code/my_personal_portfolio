@@ -6,13 +6,14 @@ import HeroSection from './Sections/HeroSection'
 import ProjectSection from './Sections/ProjectSection'
 import Skills from './Sections/Skills'
 import NavTabs from './components/NavTabs'
-import { MoreProject, NikeDetails } from './Pages'
+import { MoreProject, ProjectDetails } from './Pages'
 
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { project } from "./Utils/Data";
 
 const App = () => {
   const router = createBrowserRouter([  
@@ -31,10 +32,15 @@ const App = () => {
          </div>  
         ),
       },
-      {
-        path: "nikedetails",
-        element: <div className="dark:bg-main-dark-bg bg-light-gray"><NikeDetails /></div>
-      },
+      ...project.map((item) => {
+        const { projectDetails, ...selectedProject } = item;
+     return {
+          path: `/details/${selectedProject.id}`,
+          element: <div className="dark:bg-main-dark-bg bg-light-gray"><ProjectDetails projectId={item.id} project={selectedProject}
+           projectDetails={selectedProject.projectDeatils} /></div>
+        }
+      }),
+
       {
         path: "projects",
         element: <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>

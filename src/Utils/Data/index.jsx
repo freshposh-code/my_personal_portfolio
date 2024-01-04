@@ -240,8 +240,8 @@ export const project = [
         projectIMG: poshnike,
         github: <GitHub />,
         linkgit: 'https://github.com/freshposh-code/NikeCommerce',
-        visibility: <VisibilityIcon />,
-        linkvisible: 'https://poshnike-ecommerce.netlify.app/',
+        visibility: <PinterestIcon />,
+        linkvisible: 'https://www.pinterest.com/pin/1105211564790550279/',
         siteLink: 'https://poshnike-ecommerce.netlify.app/',
         head: 'Nike Store',
         tech: 'Technologies & Tools Utilized:',
@@ -265,6 +265,12 @@ export const project = [
             {
                 languages: tailwind,
                 alt: 'redux'
+            },
+        ],
+
+        projectDeatils: [
+            {
+                header: 'details1'
             },
         ]
     },
@@ -295,39 +301,17 @@ export const project = [
                 languages: tailwind,
                 alt: 'redux'
             },
+        ],
+
+        projectDeatils: [
+            {
+                header: 'details2'
+            },
         ]
     },
+
     {
         id: 3,
-        projectIMG: social,
-        github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
-        visibility: <VisibilityIcon />,
-        linkvisible: 'https://poshmedia.netlify.app/',
-        siteLink: 'https://poshmedia.netlify.app/',
-        head: 'Posh Media',
-        tech: 'Technologies & Tools Utilized:',
-        live: 'Live',
-        details: 'Project Details',
-        path: '/nikedetails',
-
-        tools: [
-            {
-                languages: html,
-                alt: 'html'
-            },
-            {
-                languages: css,
-                alt: 'css'
-            },
-            {
-                languages: javascript,
-                alt: 'javascript'
-            },
-        ]
-    },
-    {
-        id: 4,
         projectIMG: bravaaart,
         github: <GitHub />,
         linkgit: 'https://github.com/freshposh-code/BravaaArt_WEBAPP',
@@ -360,6 +344,48 @@ export const project = [
             {
                 languages: tailwind,
                 alt: 'redux'
+            },
+        ],
+
+        projectDeatils: [
+            {
+                header: 'details3'
+            },
+        ]
+    },
+
+    {
+        id: 4,
+        projectIMG: social,
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+        visibility: <VisibilityIcon />,
+        linkvisible: 'https://poshmedia.netlify.app/',
+        siteLink: 'https://poshmedia.netlify.app/',
+        head: 'Posh Media',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        path: '/nikedetails',
+
+        tools: [
+            {
+                languages: html,
+                alt: 'html'
+            },
+            {
+                languages: css,
+                alt: 'css'
+            },
+            {
+                languages: javascript,
+                alt: 'javascript'
+            },
+        ],
+
+        projectDeatils: [
+            {
+                header: 'details4'
             },
         ]
     },

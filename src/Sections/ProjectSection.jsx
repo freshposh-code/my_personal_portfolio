@@ -52,7 +52,8 @@ const ProjectSection = () => {
                 <a href={item.siteLink} target='_blank'>
                 <button className='bg-black text-white dark:bg-white dark:text-black p-[6px] rounded-md text-sm'>{item.live} <Visibility style={{fontSize: '18px'}} /></button>
                 </a>
-                <Link to={item.path}>
+
+                <Link to={`/details/${item.id}`}>
                 <button className='bg-black text-white dark:bg-white dark:text-black p-[6px] rounded-md text-sm'>{item.details}<ArrowForwardIcon style={{fontSize: '18px'}} /></button>
                 </Link>
              </div>
