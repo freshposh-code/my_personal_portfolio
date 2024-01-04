@@ -37,7 +37,7 @@ const ProjectSection = () => {
                 </a>
             </div>
             <div>
-                <h1 className='dark:text-white font-extrabold sm:text-2xl text-xl'>{item.head}</h1>
+                <h1 className='dark:text-white font-extrabold sm:text-xl text-lg'>{item.head}</h1>
                 <p className="font-semibold dark:text-white py-2 sm:text-base xm:text-base text-sm">{item.tech}</p>
                 <div className="flex gap-7 py-2">
                     {item.tools.map((tool, index) => (

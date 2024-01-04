@@ -8,5 +8,11 @@ import redux from './redux.png'
 import tailwind from './tailwind.png'
 import firebase from './Firebase.png'
 import omni from './Omnicreativora.jpg'
+import social from './social.png'
+import i18n from './i18n.png'
+import bravaaart from './bravaaart.jpg'
+import next from './next.png'
+import framer from './framer.png'
+import ts from './ts.png'
 
-export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni}
+export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts}

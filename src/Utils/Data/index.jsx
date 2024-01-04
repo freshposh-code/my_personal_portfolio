@@ -1,5 +1,5 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { css, firebase, html, javascript, omni, poshnike, react, redux, tailwind } from "../../assets"
+import { bravaaart, css, firebase, framer, html, i18n, javascript, next, omni, poshnike, react, redux, social, tailwind, ts } from "../../assets"
 import { LinkedIn, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
@@ -242,6 +242,7 @@ export const project = [
         linkgit: 'https://github.com/freshposh-code/NikeCommerce',
         visibility: <VisibilityIcon />,
         linkvisible: 'https://poshnike-ecommerce.netlify.app/',
+        siteLink: 'https://poshnike-ecommerce.netlify.app/',
         head: 'Nike Store',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
@@ -287,7 +288,7 @@ export const project = [
                 alt: 'react'
             },
             {
-                languages: 'https://avatars.githubusercontent.com/u/8546082?s=280&v=4',
+                languages: i18n,
                 alt: 'redux'
             },
             {
@@ -297,13 +298,14 @@ export const project = [
         ]
     },
     {
-        id: 1,
-        projectIMG: poshnike,
+        id: 3,
+        projectIMG: social,
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/NikeCommerce',
+        linkgit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
         visibility: <VisibilityIcon />,
-        linkvisible: 'https://poshnike-ecommerce.netlify.app/',
-        head: 'Nike Store',
+        linkvisible: 'https://poshmedia.netlify.app/',
+        siteLink: 'https://poshmedia.netlify.app/',
+        head: 'Posh Media',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
@@ -311,31 +313,28 @@ export const project = [
 
         tools: [
             {
-                languages: react,
-                alt: 'react'
+                languages: html,
+                alt: 'html'
             },
             {
-                languages: redux,
-                alt: 'redux'
+                languages: css,
+                alt: 'css'
             },
             {
-                languages: firebase,
-                alt: 'redux'
-            },
-            {
-                languages: tailwind,
-                alt: 'redux'
+                languages: javascript,
+                alt: 'javascript'
             },
         ]
     },
     {
-        id: 1,
-        projectIMG: poshnike,
+        id: 4,
+        projectIMG: bravaaart,
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/NikeCommerce',
-        visibility: <VisibilityIcon />,
-        linkvisible: 'https://poshnike-ecommerce.netlify.app/',
-        head: 'Nike Store',
+        linkgit: 'https://github.com/freshposh-code/BravaaArt_WEBAPP',
+        visibility: <PinterestIcon />,
+        linkvisible: 'https://www.pinterest.com/pin/1105211564790419423/',
+        siteLink: 'https://poshmedia.netlify.app/',
+        head: 'Bravaa Art',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
@@ -343,15 +342,19 @@ export const project = [
 
         tools: [
             {
-                languages: react,
+                languages: next,
                 alt: 'react'
             },
             {
-                languages: redux,
+                languages: ts,
                 alt: 'redux'
             },
             {
-                languages: firebase,
+                languages: framer,
+                alt: 'redux'
+            },
+            {
+                languages: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/three-js-icon.png',
                 alt: 'redux'
             },
             {
