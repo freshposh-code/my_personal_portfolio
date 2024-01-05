@@ -2,7 +2,7 @@ import React from 'react'
 import SectionWrapper from '../HOC/SectionWrapper'
 import { TypingText } from '../components/CustomText'
 import {motion} from  'framer-motion'
-import { zoomIn } from '../utils/motion'
+import { zoomIn } from '../Utils/motion'
 import { Styles } from '../Utils/Style'
 
 const PoshSection = () => {

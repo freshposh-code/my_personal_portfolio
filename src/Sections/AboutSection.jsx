@@ -4,7 +4,7 @@ import SectionWrapper from '../HOC/SectionWrapper'
 import { Styles } from '../Utils/Style'
 import { aboutme } from '../Utils/Data'
 import {motion} from 'framer-motion'
-import { fadeIn, textVariant, textVariant2 } from '../utils/motion'
+import { fadeIn, textVariant, textVariant2 } from '../Utils/motion'
 
 const AboutSection = () => {
   return (

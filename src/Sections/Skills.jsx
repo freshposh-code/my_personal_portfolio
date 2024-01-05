@@ -8,7 +8,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import { easeQuadInOut } from "d3-ease";
 import { circularProgressbar } from '../Utils/Data';
 import {motion} from 'framer-motion'
-import { fadeIn, textVariant, textVariant2 } from '../utils/motion';
+import { fadeIn, textVariant, textVariant2 } from '../Utils/motion';
 import FrameWorks from '../components/FrameWorks';
 
 const Skills = () => {
