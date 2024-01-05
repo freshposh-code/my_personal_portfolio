@@ -14,18 +14,24 @@ const Details = ({projectDetails, projectId}) => {
     {/* <Link to='/'>
       back
     </Link> */}
-    <h1 className='poppins text-2xl font-extrabold'>{selectProject.header}</h1>
+    <h1 className='sm:text-3xl xm:text-2xl text-lg font-extrabold mt-3'>{selectProject.header}</h1>
 
   </div>
 
-    <motion.div className={`${Styles.paddingY} mx-auto relative z-0`}>
-      <div className="flex md:flex-row flex-col items-center justify-between">
+    <div className={`${Styles.paddingY} overflow-x-hidden`}>
+      <div className="flex md:flex-row flex-col items-center justify-between sm:gap-10 gap-5">
+        <div>
         <motion.div variants={slideIn('left', 'tween', 0.2, 1)}>
-       <img src={selectProject.projectIMG} alt='image' className='w-[700px] h-[500px] object-cover' />
+       <img src={selectProject.projectIMG} alt='image' className={`w-[700px] h-[500px] object-cover ${selectProject.cardShadow} rounded-2xl`} />
        </motion.div>
-       <motion.p variants={slideIn('right', 'tween', 0.2, 1)} className='max-w-[600px]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae velit magni nesciunt qui. Corporis veniam doloremque dolores ipsum asperiores enim repellendus quasi! Dignissimos explicabo porro quod adipisci itaque assumenda. Assumenda corporis eius distinctio repellendus quis ducimus accusamus dolore minima totam nam sunt facilis, accusantium repellat commodi laudantium! Ut praesentium enim quia dolorum, a cumque dolor saepe, eveniet modi sunt optio?</motion.p>
+       </div>
+
+       <motion.div variants={slideIn('right', 'tween', 0.5, 1.2)} >
+       <h1 className='poppins sm:text-3xl xm:text-2xl text-lg font-extrabold mt-3'>{selectProject.header}</h1>
+       <motion.p className='max-w-[600px]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae velit magni nesciunt qui. Corporis veniam doloremque dolores ipsum asperiores enim repellendus quasi! Dignissimos explicabo porro quod adipisci itaque assumenda. Assumenda corporis eius distinctio repellendus quis ducimus accusamus dolore minima totam nam sunt facilis, accusantium repellat commodi laudantium! Ut praesentium enim quia dolorum, a cumque dolor saepe, eveniet modi sunt optio?</motion.p>
+      </motion.div>
       </div>
-    </motion.div>
+    </div>
     </motion.section>
   );
 }

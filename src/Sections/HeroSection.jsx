@@ -18,10 +18,10 @@ const HeroSection = () => {
     }, [texts.length]);
   return (
     <>
-      <section className={`${Styles.NavpaddingX} ${Styles.paddingY} mt-10 flex justify-between flex-col lg:flex-row`}>
+      <section className={`${Styles.NavpaddingX} ${Styles.paddingY} mt-10 flex justify-between flex-col lg:flex-row overflow-x-hidden`}>
         <div>
       {texts.map((text, index) => (
-        <motion.div variants={slideIn('left', 'tween', 0.45, 0.87)}
+        <motion.div variants={slideIn('left', 'tween', 0.10, 0.60)}
           key={index}
           className={`text-item ${index === currentTextIndex ? 'active' : ''}`}
         >
@@ -38,7 +38,7 @@ const HeroSection = () => {
       ))}
       </div>
 
-      <motion.div variants={fadeIn('left', 'spring', 0.65, 0.77)}  className='lg:mt-0 mt-[35rem] relative hero__border'> 
+      <motion.div variants={fadeIn('left', 'tween', 0.15, 0.70)}  className='lg:mt-0 mt-[35rem] relative hero__border'> 
         <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="myImage" className='sm:w-[420px] w-[400px] sm:h-[480px] h-[470px] object-cover' />
       </motion.div>
       </section>

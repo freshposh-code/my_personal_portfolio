@@ -101,6 +101,18 @@
     box-shadow: 0 0 14px rgba(0, 26, 255, 0.79);
   }
 
+  .card-green-shadow {
+    box-shadow: 0 0 15px rgba(0, 227, 136, 0.79);
+  }
+
+  .card-purp-shadow {
+    box-shadow: 0 0 15px rgba(115, 45, 255, 0.916);
+  }
+
+  .card-scl-shadow {
+    box-shadow: 0 0 15px rgb(0, 48, 21);
+  }
+
 @media screen and (max-width: 1025px) {
     .hero__border::before {
         /* content: ''; */

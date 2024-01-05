@@ -271,7 +271,8 @@ export const project = [
         projectDeatils: [
             {
                 projectIMG: poshnike,
-                header: 'Nike Store'
+                header: 'Nike Store',
+                cardShadow: 'card-shadow'
             },
         ]
     },
@@ -307,7 +308,8 @@ export const project = [
         projectDeatils: [
             {
                 projectIMG: omni,
-                header: 'Crypto Landing Page'
+                header: 'Crypto Landing Page',
+                cardShadow: 'card-green-shadow'
             },
         ]
     },
@@ -352,7 +354,8 @@ export const project = [
         projectDeatils: [
             {
                 projectIMG: bravaaart,
-                header: 'Bravaa Art'
+                header: 'Bravaa Art',
+                cardShadow: 'card-purp-shadow'
             },
         ]
     },
@@ -389,7 +392,8 @@ export const project = [
         projectDeatils: [
             {
                 projectIMG: social,
-                header: 'Posh Media'
+                header: 'Posh Media',
+                cardShadow: 'card-scl-shadow'
             },
         ]
     },
