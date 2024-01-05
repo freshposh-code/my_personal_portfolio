@@ -102,15 +102,15 @@
   }
 
   .card-green-shadow {
-    box-shadow: 0 0 15px rgba(0, 227, 136, 0.79);
+    box-shadow: 0 0 14px rgba(0, 227, 136, 0.79);
   }
 
   .card-purp-shadow {
-    box-shadow: 0 0 15px rgba(115, 45, 255, 0.916);
+    box-shadow: 0 0 14px rgba(115, 45, 255, 0.916);
   }
 
   .card-scl-shadow {
-    box-shadow: 0 0 15px rgb(0, 48, 21);
+    box-shadow: 0 0 14px rgb(68, 68, 68);
   }
 
 @media screen and (max-width: 1025px) {

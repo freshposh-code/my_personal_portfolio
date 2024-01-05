@@ -247,7 +247,7 @@ export const project = [
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        path: '/nikedetails',
+        cardShadow: 'card-shadow',
 
         tools: [
             {
@@ -272,7 +272,29 @@ export const project = [
             {
                 projectIMG: poshnike,
                 header: 'Nike Store',
-                cardShadow: 'card-shadow'
+                preview: 'https://poshnike-ecommerce.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/NikeCommerce',
+                cardShadow: 'card-shadow',
+                projectDetail: `Developed in early 2023, this project is an ecommerce application called "PoshNikeStore." 
+                It leverages React and Redux for state management, along with Firebase for authentication,
+                providing users with a seamless shopping experience.`,
+
+                  tech: `Technologies Utilized:`,
+                  techdetails: `Languages & Libraries:
+                  Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
+                  API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
+                   and responsive user interface.`,
+
+                   func: `Key Functionalities:`,
+                   funcdetails: `Users can perform various actions, such as:
+                   Account Management: Creating an account and securely logging in.
+                   Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
+
+                   userInter: `User Interface Highlights:`,
+                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
+                   the user experience through visual appeal and ease of navigation.`,
+
+                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
             },
         ]
     },
@@ -288,7 +310,7 @@ export const project = [
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        path: '/nikedetails',
+        cardShadow: 'card-green-shadow',
 
         tools: [
             {
@@ -308,8 +330,28 @@ export const project = [
         projectDeatils: [
             {
                 projectIMG: omni,
-                header: 'Crypto Landing Page',
-                cardShadow: 'card-green-shadow'
+                header: 'Crypto Page',
+                cardShadow: 'card-green-shadow',
+                preview: 'https://crypto-access.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/ModernCrypto-App',
+                projectDetail: `The UI/UX design project is centered around a cryptocurrency
+                 landing page that implements international translation features using React i18n.
+                  It offers multilingual support in French, English, and Spanish, enhancing accessibility for a wider audience.`,
+
+                  tech: `International Translation:`,
+                  techdetails: `Leveraging React i18n, the project facilitates seamless
+                   translation across multiple languages, ensuring inclusivity for global users.`,
+
+                   func: `Cryptocurrency Information:`,
+                   funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
+                   and insightful FAQs related to the crypto market.`,
+
+                   userInter: `User Interface Highlights:`,
+                   userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
+                    this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing,
+                    and accessible platform for the crypto community.`,
+
+                   languages: `#REACT #I18NEXT #TAILWINDCSS`
             },
         ]
     },
@@ -327,6 +369,7 @@ export const project = [
         live: 'Live',
         details: 'Project Details',
         path: '/nikedetails',
+        cardShadow: 'card-purp-shadow',
 
         tools: [
             {
@@ -335,19 +378,19 @@ export const project = [
             },
             {
                 languages: ts,
-                alt: 'redux'
+                alt: 'ts'
             },
             {
                 languages: framer,
-                alt: 'redux'
+                alt: 'framer'
             },
             {
                 languages: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/three-js-icon.png',
-                alt: 'redux'
+                alt: 'image'
             },
             {
                 languages: tailwind,
-                alt: 'redux'
+                alt: 'image'
             },
         ],
 
@@ -355,7 +398,29 @@ export const project = [
             {
                 projectIMG: bravaaart,
                 header: 'Bravaa Art',
-                cardShadow: 'card-purp-shadow'
+                cardShadow: 'card-purp-shadow',
+                preview: 'https://bravaaart.netlify.app',
+                previewGit: 'https://github.com/freshposh-code/BravaaArt_WEBAPP',
+                projectDetail: `Developed in early 2022, this project is an ecommerce application called "PoshNikeStore." 
+                It leverages React and Redux for state management, along with Firebase for authentication,
+                providing users with a seamless shopping experience.`,
+
+                  tech: `Technologies Utilized:`,
+                  techdetails: `Languages & Libraries:
+                  Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
+                  API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
+                   and responsive user interface.`,
+
+                   func: `Key Functionalities:`,
+                   funcdetails: `Users can perform various actions, such as:
+                   Account Management: Creating an account and securely logging in.
+                   Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
+
+                   userInter: `User Interface Highlights:`,
+                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
+                   the user experience through visual appeal and ease of navigation.`,
+
+                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
             },
         ]
     },
@@ -372,7 +437,7 @@ export const project = [
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        path: '/nikedetails',
+        cardShadow: 'card-scl-shadow',
 
         tools: [
             {
@@ -393,7 +458,27 @@ export const project = [
             {
                 projectIMG: social,
                 header: 'Posh Media',
-                cardShadow: 'card-scl-shadow'
+                cardShadow: 'card-scl-shadow',
+                projectDetail: `Developed in early 2022, this project is an ecommerce application called "PoshNikeStore." 
+                It leverages React and Redux for state management, along with Firebase for authentication,
+                providing users with a seamless shopping experience.`,
+
+                  tech: `Technologies Utilized:`,
+                  techdetails: `Languages & Libraries:
+                  Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
+                  API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
+                   and responsive user interface.`,
+
+                   func: `Key Functionalities:`,
+                   funcdetails: `Users can perform various actions, such as:
+                   Account Management: Creating an account and securely logging in.
+                   Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
+
+                   userInter: `User Interface Highlights:`,
+                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
+                   the user experience through visual appeal and ease of navigation.`,
+
+                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
             },
         ]
     },

@@ -23,7 +23,8 @@ const ProjectSection = () => {
             {project.map((item, index) => (
          <motion.div initial='hidden' whileInView='show'
          viewport={{once: true, amount: 0.25}}
-         variants={fadeIn('up', 'tween', index * 0.42, 0.45)} className='card-shadow sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative' key={item.id}>
+         variants={fadeIn('up', 'tween', index * 0.42, 0.45)} className={`${item.cardShadow} sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative`} key={item.id}>
+
             <div>
             <img src={item.projectIMG} alt="alt" className='w-[295px] h-[290px] object-center object-cover rounded-lg' />
             </div>
