@@ -35,7 +35,7 @@ const App = () => {
       ...project.map((item) => {
         const { projectDetails, ...selectedProject } = item;
      return {
-          path: `/details/${selectedProject.id}`,
+          path: `/details/${selectedProject.head}`,
           element: <div className="dark:bg-main-dark-bg bg-light-gray"><ProjectDetails projectId={item.id} project={selectedProject}
            projectDetails={selectedProject.projectDeatils} /></div>
         }

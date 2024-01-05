@@ -29,7 +29,7 @@ const Skills = () => {
 
          <div style={{fontWeight: 700}} className='w-[100%] h-[100%] grid md:grid-cols-8 grid-cols-4 sm:gap-16 gap-5'>
             {circularProgressbar.map((item, index) => (
-                <motion.div variants={fadeIn("up", 'tween', index * 0.27, 0.33)} key={item.skillText}>
+                <motion.div variants={fadeIn("up", 'tween', index * 0.28, 0.37)} key={item.skillText}>
             <AnimatedProgressProvider 
               valueStart={item.valueStart}
               valueEnd={item.valueEnd}

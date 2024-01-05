@@ -53,7 +53,7 @@ const ProjectSection = () => {
                 <button className='bg-black text-white dark:bg-white dark:text-black p-[6px] rounded-md text-sm'>{item.live} <Visibility style={{fontSize: '18px'}} /></button>
                 </a>
 
-                <Link to={`/details/${item.id}`}>
+                <Link to={`/details/${item.head}`}>
                 <button className='bg-black text-white dark:bg-white dark:text-black p-[6px] rounded-md text-sm'>{item.details}<ArrowForwardIcon style={{fontSize: '18px'}} /></button>
                 </Link>
              </div>

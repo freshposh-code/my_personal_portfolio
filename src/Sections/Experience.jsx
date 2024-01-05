@@ -20,7 +20,7 @@ const Experience = () => {
     contentArrowStyle={{ borderRight: '12px solid rgba(0, 0, 206, 0.945)' }}
     icon={
         <div className='w-full h-full flex justify-center items-center'>
-            <img src={exp.language} alt="html" className='object-cover w-12 h-12' />
+            <img src={exp.language} alt="html" className='object-cover sm:w-12 w-9 sm:h-12 h-9' />
         </div>
     }
     date={
