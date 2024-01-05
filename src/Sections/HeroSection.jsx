@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Styles } from '../Utils/Style'
 import {motion} from 'framer-motion'
-import { fadeIn, slideIn } from '../utils/motion';
+import { fadeIn, slideIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 import SocialIcons from '../components/SocialIcons';
 

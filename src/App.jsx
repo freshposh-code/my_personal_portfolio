@@ -29,9 +29,7 @@ const App = () => {
          <Skills />
          <Experience />
          <ProjectSection />  
-         <div className="">
           <PoshSection />
-          </div>  
        
          </div>  
         ),

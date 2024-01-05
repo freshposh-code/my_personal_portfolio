@@ -317,7 +317,7 @@ export const project = [
         linkgit: 'https://github.com/freshposh-code/BravaaArt_WEBAPP',
         visibility: <PinterestIcon />,
         linkvisible: 'https://www.pinterest.com/pin/1105211564790419423/',
-        siteLink: 'https://poshmedia.netlify.app/',
+        siteLink: 'https://bravaaart.netlify.app',
         head: 'Bravaa Art',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
