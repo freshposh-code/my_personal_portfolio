@@ -4,7 +4,7 @@ import SectionWrapper from '../HOC/SectionWrapper'
 import { Styles } from '../Utils/Style'
 import { aboutme } from '../Utils/Data'
 import {motion} from 'framer-motion'
-import { fadeIn, textVariant2 } from '../utils/motion'
+import { fadeIn, textVariant, textVariant2 } from '../utils/motion'
 
 const AboutSection = () => {
   return (
@@ -16,7 +16,7 @@ const AboutSection = () => {
         <div className="flex md:flex-row flex-col justify-between mt-11">
             
             <div className="flex flex-col">
-        <motion.h1 variants={textVariant2} className='sm:text-3xl text-xl font-bold dark:text-white py-3'>PERSONAL INFO'S</motion.h1>
+        <motion.h1 variants={textVariant(0.25)} className='sm:text-3xl text-xl font-bold dark:text-white py-3'>PERSONAL INFO'S</motion.h1>
 
           {aboutme.map((item, index) => (
         <motion.div variants={fadeIn("up", "tween", index * 0.50, 0.50)} key={item.personalInfo}>
@@ -30,7 +30,7 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <motion.p variants={fadeIn('up', 'tween', 0.25, 0.33)} className='font-semibold max-w-[610px] sm:leading-10 leading-8 sm:text-lg text-base md:mt-0 mt-10 dark:text-white'>
+            <motion.p variants={textVariant(0.35)} className='font-semibold max-w-[610px] sm:leading-10 leading-8 sm:text-lg text-base md:mt-0 mt-10 dark:text-white'>
             <span className="font-extrabold text-xl">HI👋,</span> i'm Farouk, I'm a self-taught frontend developer with a passion for crafting modern, user-friendly interfaces for websites,
                I come from a background of self-learning in development, 
                I love coding and have seen myself grow through the years. Coding has become an everyday task for me,

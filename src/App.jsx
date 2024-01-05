@@ -14,6 +14,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { project } from "./Utils/Data";
+import PoshSection from "./Sections/PoshSection";
 
 const App = () => {
   const router = createBrowserRouter([  
@@ -27,7 +28,10 @@ const App = () => {
          <AboutSection />
          <Skills />
          <Experience />
-         <ProjectSection />    
+         <ProjectSection />  
+         <div className="">
+          <PoshSection />
+          </div>  
        
          </div>  
         ),

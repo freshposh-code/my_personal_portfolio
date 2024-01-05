@@ -4,7 +4,6 @@ import { TypingText } from '../components/CustomText'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'; 
 import { experience } from '../Utils/Data';
-// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Experience = () => {
   return (
