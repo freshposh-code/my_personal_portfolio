@@ -1,6 +1,5 @@
 import {motion} from 'framer-motion'
 import { Styles } from '../Utils/Style'
-import SectionWrapper from '../HOC/SectionWrapper'
 import { TypingText } from '../components/CustomText'
 import { fadeIn, zoomIn } from '../Utils/motion'
 import { project } from '../Utils/Data'
@@ -24,7 +23,7 @@ const ProjectSection = () => {
             {project.map((item, index) => (
          <motion.div initial='hidden' whileInView='show'
          viewport={{once: true, amount: 0.25}}
-         variants={fadeIn('up', 'tween', index * 0.42, 0.40)} className='card-shadow sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative' key={item.id}>
+         variants={fadeIn('up', 'tween', index * 0.42, 0.45)} className='card-shadow sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative' key={item.id}>
             <div>
             <img src={item.projectIMG} alt="alt" className='w-[295px] h-[290px] object-center object-cover rounded-lg' />
             </div>

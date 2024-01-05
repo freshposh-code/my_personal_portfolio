@@ -270,7 +270,8 @@ export const project = [
 
         projectDeatils: [
             {
-                header: 'details1'
+                projectIMG: poshnike,
+                header: 'Nike Store'
             },
         ]
     },
@@ -305,7 +306,8 @@ export const project = [
 
         projectDeatils: [
             {
-                header: 'details2'
+                projectIMG: omni,
+                header: 'Crypto Landing Page'
             },
         ]
     },
@@ -349,7 +351,8 @@ export const project = [
 
         projectDeatils: [
             {
-                header: 'details3'
+                projectIMG: bravaaart,
+                header: 'Bravaa Art'
             },
         ]
     },
@@ -385,7 +388,8 @@ export const project = [
 
         projectDeatils: [
             {
-                header: 'details4'
+                projectIMG: social,
+                header: 'Posh Media'
             },
         ]
     },
