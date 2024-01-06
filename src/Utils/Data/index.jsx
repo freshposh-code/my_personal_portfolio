@@ -340,7 +340,7 @@ export const project = [
 
                   tech: `International Translation:`,
                   techdetails: `Leveraging React i18n, the project facilitates seamless
-                   translation across multiple languages, ensuring inclusivity for global users.`,
+                   translation across multiple languages.`,
 
                    func: `Cryptocurrency Information:`,
                    funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
@@ -348,8 +348,7 @@ export const project = [
 
                    userInter: `User Interface Highlights:`,
                    userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
-                    this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing,
-                    and accessible platform for the crypto community.`,
+                    this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing platform for the crypto community.`,
 
                    languages: `#REACT #I18NEXT #TAILWINDCSS`
             },
@@ -401,26 +400,22 @@ export const project = [
                 cardShadow: 'card-purp-shadow',
                 preview: 'https://bravaaart.netlify.app',
                 previewGit: 'https://github.com/freshposh-code/BravaaArt_WEBAPP',
-                projectDetail: `Developed in early 2022, this project is an ecommerce application called "PoshNikeStore." 
-                It leverages React and Redux for state management, along with Firebase for authentication,
-                providing users with a seamless shopping experience.`,
+                projectDetail: `Explore a diverse collection of NFTs showcasing captivating digital artwork
+                 and unique templates. Our platform provides an immersive experience
+                 for discovering and exploring a multitude of NFTs, offering a wide array of digital art`,
 
-                  tech: `Technologies Utilized:`,
-                  techdetails: `Languages & Libraries:
-                  Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
-                  API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
-                   and responsive user interface.`,
+                  tech: `Discover New Art:`,
+                  techdetails: `
+                  Engage with an extensive range of digital artworks and NFT templates to discover new and intriguing pieces.`,
 
-                   func: `Key Functionalities:`,
-                   funcdetails: `Users can perform various actions, such as:
-                   Account Management: Creating an account and securely logging in.
-                   Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
+                   func: `Inspirational Discoveries:`,
+                   funcdetails: ` Find inspiration and captivation in the diverse range of digital art available for exploration.`,
 
                    userInter: `User Interface Highlights:`,
-                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
-                   the user experience through visual appeal and ease of navigation.`,
+                   userInterdetails: `Enjoy an intuitive and user-friendly interface designed with Tailwind CSS
+                    for seamless navigation and exploration.`,
 
-                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
+                   languages: `#NEXT.JS #TYPESCRIPT #FRAMERMOTION #THREE.JS #TAILWINDCSS`
             },
         ]
     },
@@ -459,26 +454,21 @@ export const project = [
                 projectIMG: social,
                 header: 'Posh Media',
                 cardShadow: 'card-scl-shadow',
-                projectDetail: `Developed in early 2022, this project is an ecommerce application called "PoshNikeStore." 
-                It leverages React and Redux for state management, along with Firebase for authentication,
-                providing users with a seamless shopping experience.`,
+                preview: 'https://poshmedia.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
+                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
+                  for an enhanced browsing experience.`,
 
-                  tech: `Technologies Utilized:`,
-                  techdetails: `Languages & Libraries:
-                  Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
-                  API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
-                   and responsive user interface.`,
+                  tech: `Dynamic CSS Effects:`,
+                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
+                   enhancing user interface interactivity and engagement.`,
 
-                   func: `Key Functionalities:`,
-                   funcdetails: `Users can perform various actions, such as:
-                   Account Management: Creating an account and securely logging in.
-                   Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
+                   func: `Customizable Interface:`,
+                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
+                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
 
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
-                   the user experience through visual appeal and ease of navigation.`,
-
-                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
+                   languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
