@@ -1,16 +1,16 @@
 import React from 'react'
-import { TypingText } from '../components/CustomText'
+import { TransingText } from '../components/CustomText'
 import SectionWrapper from '../HOC/SectionWrapper'
 import { Styles } from '../Utils/Style'
 import { aboutme } from '../Utils/Data'
 import {motion} from 'framer-motion'
-import { fadeIn, textVariant, textVariant2 } from '../Utils/motion'
+import { fadeIn, textVariant } from '../Utils/motion'
 
 const AboutSection = () => {
   return (
     <>
     <section className={`${Styles.paddingX} ${Styles.paddingY} mt-24`}>
-        <TypingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
+        <TransingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
 
         <div className="flex md:flex-row flex-col justify-between mt-11">

@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionWrapper from '../HOC/SectionWrapper'
-import { TypingText } from '../components/CustomText'
+import { TransingText } from '../components/CustomText'
 import {motion} from  'framer-motion'
 import { fadeIn, textVariant, zoomIn } from '../Utils/motion'
 import { Styles } from '../Utils/Style'
@@ -10,7 +10,7 @@ const PoshSection = () => {
   return (
     <section className={`${Styles.paddingY} ${Styles.paddingX} mt-10`}>
         <div className="flex justify-center items-center">
-        <TypingText title='Posh</>Code ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl absolute' />
+        <TransingText title='Posh</>Code ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl absolute' />
         
         <div className="flex justify-center items-center">
         <motion.h1 variants={zoomIn(0.70, 1)} className='sm:text-7xl xm:text-5xl text-4xl -z-0 flex justify-center absolute text-[#51515143]'>PORTFOLIO</motion.h1>
@@ -28,7 +28,7 @@ const PoshSection = () => {
         <div className="flex flex-wrap gap-12">
           {poshcode.map((item) => (
             <div key={item.poshHeader}>
-        <TypingText title={item.poshHeader} textStyles='font-bold text-2xl max-w-fit hover:border-blue-700 border-b-4 duration-300' />
+        <TransingText title={item.poshHeader} textStyles='font-bold text-2xl max-w-fit hover:border-blue-700 border-b-4 duration-300' />
         
           <div className="flex flex-wrap item-center mt-2 font-semibold gap-5 text-white dark:text-black">
             {item.description.map((sub, index) => (

@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import { Styles } from '../Utils/Style'
-import { TypingText } from '../components/CustomText'
+import { TransingText } from '../components/CustomText'
 import { fadeIn, zoomIn } from '../Utils/motion'
 import { project } from '../Utils/Data'
 import { Link } from 'react-router-dom'
@@ -10,7 +10,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const ProjectSection = () => {
   return (
     <section className={`${Styles.paddingY} ${Styles.paddingX}`}>
-         <TypingText title='My Projects ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
+         <TransingText title='My Projects ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
          <p className='font-semibold text-center sm:text-lg text-base py-5 leading-7 dark:text-white'>
             Discover a curated selection of my impactful projects showcasing a fusion of creativity.

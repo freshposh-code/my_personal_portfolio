@@ -2,12 +2,12 @@
 import { motion } from "framer-motion";
 import { fadeIn, textContainer, textVariant2 } from "../Utils/motion";
 
-export const TypingText = ({ title, textStyles }) => {
+export const TransingText = ({ title, textStyles }) => {
  return (
   <>
    <motion.p
     variants={textContainer}
-    className={`font-bold dark:text-[#f0f8ff] ${textStyles}`}
+    className={`font-bold dark:text-white ${textStyles}`}
   >
     {Array.from(title).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>

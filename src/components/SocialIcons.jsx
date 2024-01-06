@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { socialIcons } from '../Utils/Data';
 import SectionWrapper from '../HOC/SectionWrapper';
-import { zoomIn } from "../utils/motion";
+import { zoomIn } from "../Utils/motion";
 
 const SocialIcons = () => {
   return (

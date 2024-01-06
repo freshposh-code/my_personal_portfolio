@@ -1,5 +1,5 @@
 import { Styles } from '../Utils/Style'
-import { TypingText } from '../components/CustomText'
+import { TransingText } from '../components/CustomText'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'; 
 import { experience } from '../Utils/Data';
@@ -7,7 +7,7 @@ import { experience } from '../Utils/Data';
 const Experience = () => {
   return (
     <section className={`${Styles.paddingY} mt-12`}>
-        <TypingText title='Journey & Experience ' textStyles='flex justify-center items-baseline sm:text-[1.7em] xm:text-[1.6em] text-[1.2em]' />
+        <TransingText title='Journey & Experience ' textStyles='flex justify-center items-baseline sm:text-[1.7em] xm:text-[1.6em] text-[1.2em]' />
 
 
 <VerticalTimeline>
