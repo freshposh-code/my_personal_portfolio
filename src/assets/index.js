@@ -14,6 +14,6 @@ import bravaaart from './bravaaart.jpg'
 import next from './next.png'
 import framer from './framer.png'
 import ts from './ts.png'
-import main from './mainiconsdark.svg'
+import main from './mainicons.svg'
 
 export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main}
