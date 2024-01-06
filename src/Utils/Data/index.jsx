@@ -63,13 +63,13 @@ export const aboutme = [
         personalInfo: 'Freelance:',
         response: 'Available',
         personalInfo2: 'Completed Projects:',
-        response2: '23+',
+        response2: '27+',
     },
     {
         personalInfo: 'Phone:',
         response: '+2349068620646',
         personalInfo2: 'Email:',
-        response2: '@farouk001@gmail.com',
+        response2: 'freshposh97@..',
     },
    
 ]
@@ -471,5 +471,48 @@ export const project = [
                    languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
+    },
+]
+
+export const poshcode = [
+    {
+        poshHeader: 'Personal Skills',
+
+        description: [
+            {poshDesc: 'Creativity'},
+            {poshDesc: 'Team work'},
+            {poshDesc: 'Organisation'},
+        ],
+        
+    },
+    {
+        poshHeader: 'Hobbies & Interest',
+
+        description: [         
+            {poshDesc: 'Drawing'},
+            {poshDesc: 'Music'},
+            {poshDesc: 'Coding'},
+        ]     
+    },
+    {
+        poshHeader: 'Designing Skills',
+
+        description: [
+          {poshDesc: 'Creativity- Planning & Strategy'},
+            {poshDesc: 'Signs and Typography- Layout'},
+           {poshDesc: 'Grid- Colour Sense - Inspiration'},
+        ]
+
+        
+    },
+    {
+        poshHeader: 'Connect with me',
+
+        description: [
+          {poshDesc: '📧freshposh97@gmail.com'},
+            {poshDesc: '📞+2349068620646'},
+        ]
+
+        
     },
 ]

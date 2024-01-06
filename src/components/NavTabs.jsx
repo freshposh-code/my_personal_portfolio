@@ -2,7 +2,7 @@ import React from 'react'
 import { navIcons } from '../Utils/Data'
 import CodeOffIcon from '@mui/icons-material/Code';
 import {motion} from 'framer-motion'
-import { navVariants } from '../utils/motion';
+import { navVariants } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 
 

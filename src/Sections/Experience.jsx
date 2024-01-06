@@ -1,4 +1,3 @@
-import SectionWrapper from '../HOC/SectionWrapper'
 import { Styles } from '../Utils/Style'
 import { TypingText } from '../components/CustomText'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -54,4 +53,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience)
+export default Experience

@@ -136,3 +136,10 @@
         border-left: 6px solid #0000ff;
     }
 }
+
+.main-bg {
+  background: url('./assets//bgWhite.png');
+  width: 100%;
+  height: 500px;
+  background-position: center;
+}
