@@ -17,7 +17,7 @@ const NavTabs = () => {
 
         <div className="flex justify-center items-center">
 
-        <motion.div variants={navVariants} initial='hidden' whileInView='show' viewport={{once: true, amount: 0.25}} className="fixed bottom-0 p-4 max-w-fit rounded-[30px] m-3 bg-[#d2d2d28a] dark:blur-effect-theme z-50">
+        <motion.div variants={navVariants} initial='hidden' whileInView='show' viewport={{once: true, amount: 0.25}} className="fixed bottom-0 p-4 max-w-fit rounded-[30px] m-2 bg-[#d2d2d25d] z-50">
           {navIcons.map((item) => (
             <a href={item.id} key={item.id} onClick={() => setNavActive(`${item.id}`)}>
               <span  className={`${navActive === `${item.id}`  ? 'scale text-white' : ''} sm:p-[7px] p-[5px] text-center`}>{item.icon}</span>

@@ -520,3 +520,15 @@ export const poshcode = [
         
     },
 ]
+
+export const footerSocial = [
+    {
+        langauage: react
+    },
+    {
+        langauage: framer
+    },
+    {
+        langauage: tailwind
+    },
+]

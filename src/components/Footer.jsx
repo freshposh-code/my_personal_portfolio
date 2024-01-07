@@ -3,35 +3,37 @@ import { Styles } from '../Utils/Style'
 import {motion} from 'framer-motion'
 import SectionWrapper from '../HOC/SectionWrapper'
 import { fadeIn } from '../Utils/motion'
-import { socialIcons } from '../Utils/Data';
+import { footerSocial, socialIcons } from '../Utils/Data';
 import { TransingText } from './CircularAnimation/CustomText';
 
 const Footer = () => {
   return (
     <section className={`${Styles.paddingY} ${Styles.paddingX}`}>
-
-      <div className="flex justify-between items-center sm:flex-row flex-col">
-        <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="sm:px-16 px-2">      
+      <div className="flex items-center flex-wrap sm:justify-between justify-center sm:gap-0 gap-5">
+        
+        <motion.div variants={fadeIn('up', 'tween', 0.22, 0.80)} className="">      
      <div className="relative p-3">
         <h1 className='font-bold xm:text-2xl dark:text-[#f0f8ff] nav__border px-6'>Posh<span className="text-[#0000ff] font-extrabold"><CodeOffIcon /></span>Code</h1>
         </div>
            </motion.div>
 
-        <div className="flex sm:flex-row flex-col items-center">
-           <div className="flex">
-            {socialIcons.map((item, index) => (
-              <a href={item.link}>
-              <span>{item.icon}</span>
-              </a>
+           <div className="flex items-center font-semibold gap-2 dark:text-white sm:text-base text-sm">
+            <h1>Made with</h1>
+            {footerSocial.map((item, index) => (
+              <div key={item.langauage}>
+              <img src={item.langauage} alt={item.langauage} className='w-4 h-4 object-cover' />
+              </div>
+            
             ))}
+            & ❤️
            </div>
 
           <div>
-          <TransingText title='Crafted by Pøsh-cødę' textStyles='font-bold' />
+          <TransingText title='Crafted by Pøsh-cødę' textStyles='font-bold sm:text-2xl xm:text-xl text-lg capitalize' />
            </div>
 
          </div>
-      </div>
+         <motion.h1 variants={fadeIn('down', 'tween', 0.2, 0.80)} className='font-extrabold dark:text-white sm:text-lg xm:text-base text-xs text-center'> <span className="text-xl">&copy;</span> 2023-2024 All right reserve.<span className='text-[#0000ff]'>Pøsh-cødę</span></motion.h1>
     </section>
   )
 }
