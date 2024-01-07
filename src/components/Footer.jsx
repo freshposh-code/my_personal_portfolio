@@ -18,18 +18,18 @@ const Footer = () => {
            </motion.div>
 
            <div className="flex items-center font-semibold gap-2 dark:text-white sm:text-base text-sm">
-            <h1>Made with</h1>
-            {footerlang.map((item, index) => (
+            <h1 className='sm:text-lg text-base'>Made with</h1>
+            {footerlang.map((item) => (
               <div key={item.langauage}>
-              <img src={item.langauage} alt={item.langauage} className='w-4 h-4 object-cover' />
+              <img src={item.langauage} alt={item.langauage} className='sm:w-5 w-4 sm:h-5 h-4 object-cover' />
               </div>
             
             ))}
-            & ❤️
+             <span className='sm:text-xl text-base'>& ❤️</span>
            </div>
 
           <div>
-          <TransingText title='Crafted by Pøsh-cødę' textStyles='font-bold sm:text-2xl xm:text-xl text-lg capitalize' />
+          <TransingText title='Crafted by Pøsh-cødę' textStyles='font-bold sm:text-2xl xm:text-xl text-lg capitalize' me='me' />
            </div>
 
          </div>
