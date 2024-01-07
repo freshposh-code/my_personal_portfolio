@@ -3,7 +3,7 @@ import { Styles } from '../Utils/Style'
 import {motion} from 'framer-motion'
 import SectionWrapper from '../HOC/SectionWrapper'
 import { fadeIn } from '../Utils/motion'
-import { footerSocial, socialIcons } from '../Utils/Data';
+import { footerlang } from '../Utils/Data';
 import { TransingText } from './CircularAnimation/CustomText';
 
 const Footer = () => {
@@ -19,7 +19,7 @@ const Footer = () => {
 
            <div className="flex items-center font-semibold gap-2 dark:text-white sm:text-base text-sm">
             <h1>Made with</h1>
-            {footerSocial.map((item, index) => (
+            {footerlang.map((item, index) => (
               <div key={item.langauage}>
               <img src={item.langauage} alt={item.langauage} className='w-4 h-4 object-cover' />
               </div>

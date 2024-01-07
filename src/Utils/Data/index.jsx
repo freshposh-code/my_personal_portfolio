@@ -521,7 +521,7 @@ export const poshcode = [
     },
 ]
 
-export const footerSocial = [
+export const footerlang  = [
     {
         langauage: react
     },
