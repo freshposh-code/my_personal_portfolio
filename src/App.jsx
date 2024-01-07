@@ -4,7 +4,6 @@ import NavTabs from './components/NavTabs'
 import { AboutSection, Contact, Experience, HeroSection, PoshSection, ProjectSection, Skills } from "./Sections";
 import { MoreProject, ProjectDetails } from './Pages'
 
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -49,11 +48,11 @@ const App = () => {
       },
     ]);
 
-    
 
-createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
-);
+    return (
+      <RouterProvider router={router} />
+    )
+
 
 }
 

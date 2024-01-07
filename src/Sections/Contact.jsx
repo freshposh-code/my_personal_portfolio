@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 import React, { useRef, useState } from 'react'
 import { main } from '../assets'
 import { Styles } from '../Utils/Style';
@@ -6,7 +7,6 @@ import {motion} from 'framer-motion'
 import { slideIn, textVariant, zoomIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 import emailjs from "@emailjs/browser";
-import toast from "react-hot-toast";
 import { Twitter, WhatsApp } from '@mui/icons-material';
 
 const Contact = () => {
@@ -50,7 +50,6 @@ const Contact = () => {
           () => {
             setLoading(false);
             toast.success('Sent Successfully')
-            alert('okay done')
   
             setForm({
               name: "",
@@ -62,7 +61,7 @@ const Contact = () => {
             setLoading(false);
             console.error(error);
   
-            toast.error("something went wrong. Please try again.")
+            toast.error("something went wrong.")
           }
         );
     }
