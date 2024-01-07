@@ -16,7 +16,7 @@ const Details = ({projectDetails, projectId}) => {
 
   </div>
 
-    <div className={`${Styles.paddingY} overflow-x-hidden`}>
+    <div className={`${Styles.paddingY} overflow-x-hidden sm:mt-0 mt-5`}>
       <div className="flex md:flex-row flex-col items-center justify-between sm:gap-10 gap-5">
         <div>
         <motion.div variants={slideIn('left', 'tween', 0.2, 1)}>

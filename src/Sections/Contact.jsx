@@ -50,6 +50,7 @@ const Contact = () => {
           () => {
             setLoading(false);
             toast.success('Sent Successfully')
+            alert('okay done')
   
             setForm({
               name: "",
