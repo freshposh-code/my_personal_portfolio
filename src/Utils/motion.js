@@ -13,8 +13,8 @@ export const navVariants = {
       y: 0,
       transition: {
         type: 'spring',
-        stiffness: 200,
-        delay: 0.70,
+        stiffness: 300,
+        delay: 1.2,
       },
     },
   };
@@ -91,7 +91,7 @@ export const navVariants = {
   
   export const fadeIn = (direction, type, delay, duration) => ({
     hidden: {
-      x: direction === 'left' ? 100 : direction === 'right' ? -100: 0,
+      x: direction === 'left' ? 400 : direction === 'right' ? -100: 0,
       y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
       opacity: 0,
     },

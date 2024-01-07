@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { fadeIn, textContainer, textVariant2 } from "../Utils/motion";
+import { fadeIn, textContainer, textVariant2 } from "../../Utils/motion";
 
 export const TransingText = ({ title, textStyles }) => {
  return (
@@ -14,7 +14,7 @@ export const TransingText = ({ title, textStyles }) => {
         {letter === " " ? "\u00a0" : letter}
       </motion.span>
     ))}
-    <motion.span variants={fadeIn('up', 'tween', 0.70, 0.57)} className="bg-black w-3 h-3 rounded-[50%] dark:bg-white" />
+    <motion.span variants={fadeIn('up', 'tween', 0.70, 0.57)} className='bg-black w-3 h-3 rounded-[50%] dark:bg-white' />
   </motion.p>
     </>
  )

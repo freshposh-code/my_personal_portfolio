@@ -1,5 +1,5 @@
 import React from 'react'
-import { TransingText } from '../components/CustomText'
+import { TransingText } from '../components/CircularAnimation/CustomText'
 import SectionWrapper from '../HOC/SectionWrapper'
 import { Styles } from '../Utils/Style'
 import { aboutme } from '../Utils/Data'
@@ -10,7 +10,7 @@ const AboutSection = () => {
   return (
     <>
     <section className={`${Styles.paddingX} ${Styles.paddingY} mt-24`} id='about'>
-        <TransingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
+        <TransingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' dotStyle='bg-black w-3 h-3 rounded-[50%] dark:bg-white' />
 
 
         <div className="flex md:flex-row flex-col justify-between mt-11">

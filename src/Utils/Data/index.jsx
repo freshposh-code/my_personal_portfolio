@@ -25,10 +25,6 @@ export const navIcons = [
         id: '#project',
         icon: <DeveloperBoard />
     },
-    // {
-    //     id: '#poshcode',
-    //     icon: <Info />
-    // },
     {
         id: '#contactme',
         icon: <ContactMail />

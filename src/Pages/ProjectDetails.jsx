@@ -1,8 +1,9 @@
 import {motion} from 'framer-motion'
 import { Styles } from '../Utils/Style';
 import PreviewIcon from '@mui/icons-material/Preview';
-import { fadeIn, slideIn, zoomIn } from '../Utils/motion';
-import { GitHub } from '@mui/icons-material';
+import { fadeIn, navVariants, slideIn, zoomIn } from '../Utils/motion';
+import { GitHub, Home } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 const Details = ({projectDetails, projectId}) => {
 
@@ -10,7 +11,7 @@ const Details = ({projectDetails, projectId}) => {
  
   return (
  <motion.section initial='hidden' whileInView='show'
- viewport={{once: true}} className={`${Styles.paddingX} h-[100%]`}>
+ viewport={{once: false}} className={`${Styles.paddingX} h-[100%]`}>
     <div className='flex justify-between'>
     <h1 className={`sm:text-3xl xm:text-2xl text-lg font-extrabold mt-3 rounded-lg px-3 py-1 dark:text-white ${selectProject.cardShadow}`}>{selectProject.header}</h1>
 
@@ -52,10 +53,17 @@ const Details = ({projectDetails, projectId}) => {
        <h1 className='sm:text-[22px] py-2 text-xl font-extrabold dark:text-white'>{selectProject.userInter}</h1>
        <p className='max-w-[600px] font-semibold dark:text-white poppins sm:text-[17px] text-base sm:leading-9 leading-8'>{selectProject.userInterdetails}</p>
 
-       <p className='text-xs text-[#8e8e8e] font-black dark:text-white'>{selectProject.languages}</p>
+       <p className='text-xs text-[#8e8e8e] font-black dark:text-[#a9a9a9]'>{selectProject.languages}</p>
       </motion.div>
       </div>
     </div>
+
+    <motion.div variants={navVariants}>
+    <Link to='/' className={`flex justify-end dark:text-white max-w-fit m-auto rounded-full p-1 ${selectProject.cardShadow}`}>
+    <Home />
+    </Link>
+    </motion.div>
+
     </motion.section>
   );
 }

@@ -1,5 +1,5 @@
 import { Styles } from '../Utils/Style'
-import { TransingText } from '../components/CustomText'
+import { TransingText } from '../components/CircularAnimation/CustomText'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'; 
 import { experience } from '../Utils/Data';

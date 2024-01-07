@@ -2,7 +2,7 @@ import toast from "react-hot-toast";
 import React, { useRef, useState } from 'react'
 import { main } from '../assets'
 import { Styles } from '../Utils/Style';
-import { TransingText } from '../components/CustomText';
+import { TransingText } from '../components/CircularAnimation/CustomText';
 import {motion} from 'framer-motion'
 import { slideIn, textVariant, zoomIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';

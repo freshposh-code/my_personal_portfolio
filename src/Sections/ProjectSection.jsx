@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import { Styles } from '../Utils/Style'
-import { TransingText } from '../components/CustomText'
+import { TransingText } from '../components/CircularAnimation/CustomText'
 import { fadeIn, zoomIn } from '../Utils/motion'
 import { project } from '../Utils/Data'
 import { Link } from 'react-router-dom'
@@ -43,7 +43,7 @@ const ProjectSection = () => {
                 <p className="font-semibold dark:text-white py-2 sm:text-base xm:text-base text-sm">{item.tech}</p>
                 <div className="flex gap-7 py-2">
                     {item.tools.map((tool, index) => (
-                    <motion.div variants={zoomIn(index * 0.55, 0.88)} key={tool.alt}>
+                    <motion.div variants={zoomIn(index * 0.45, 0.75)} key={tool.alt}>
                     <img src={tool.languages} alt={tool.alt} className='sm:w-7 xm:w-5 w-4 sm:h-7 xm:h-5 h-4 object-cover' />
                     </motion.div>
                     ))}

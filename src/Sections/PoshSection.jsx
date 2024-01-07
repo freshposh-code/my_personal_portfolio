@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionWrapper from '../HOC/SectionWrapper'
-import { TransingText } from '../components/CustomText'
+import { TransingText } from '../components/CircularAnimation/CustomText'
 import {motion} from  'framer-motion'
 import { fadeIn, textVariant, zoomIn } from '../Utils/motion'
 import { Styles } from '../Utils/Style'

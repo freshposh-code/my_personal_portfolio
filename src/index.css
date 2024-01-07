@@ -143,3 +143,8 @@
   height: 500px;
   background-position: center;
 }
+
+.scale {
+  background-color: #0000ff;
+  border-radius: 50%;
+}

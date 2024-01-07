@@ -1,5 +1,5 @@
 import AnimatedProgressProvider from '../components/CircularAnimation';
-import { TransingText } from '../components/CustomText'
+import { TransingText } from '../components/CircularAnimation/CustomText'
 
 import SectionWrapper from '../HOC/SectionWrapper'
 import { Styles } from '../Utils/Style'
