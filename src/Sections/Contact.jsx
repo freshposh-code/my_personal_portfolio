@@ -67,7 +67,7 @@ const Contact = () => {
     }
 
   return (
-    <section className={`${Styles.paddingX} ${Styles.paddingY} bg-white dark:bg-gray-800 sm:rounded-t-[50%] rounded-t-[180px]`}>
+    <section className={`${Styles.paddingX} ${Styles.paddingY} bg-white dark:bg-gray-800 sm:rounded-t-[50%] rounded-t-[180px] sm:rounded-b-[10%] rounded-b-[100px]`}>
 
 <div className="flex justify-center items-center sm:mt-10 mt-16">
         <TransingText title='Get In Touch ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl absolute' />
@@ -87,7 +87,7 @@ const Contact = () => {
             <img src={main} alt="image" className='object-cover w-[100%] sm:h-[600px] h-[450px]' />
         </motion.div>
 
-        <motion.div variants={slideIn('right', 'tween', 0.0, 1.4)} className='bg-[#000] sm:p-3 p-2 rounded-2xl sm:w-[500px] w-[100%] m-auto mt-6'>
+        <motion.div variants={slideIn('right', 'tween', 0.0, 1)} className='bg-[#000] sm:p-3 p-2 rounded-2xl sm:w-[500px] w-[100%] m-auto mt-6'>
             
              <form
           ref={formRef}

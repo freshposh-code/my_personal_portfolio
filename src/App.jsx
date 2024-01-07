@@ -1,11 +1,7 @@
 import * as React from "react";
 
-import AboutSection from './Sections/AboutSection'
-import Experience from './Sections/Experience'
-import HeroSection from './Sections/HeroSection'
-import ProjectSection from './Sections/ProjectSection'
-import Skills from './Sections/Skills'
 import NavTabs from './components/NavTabs'
+import { AboutSection, Contact, Experience, HeroSection, PoshSection, ProjectSection, Skills } from "./Sections";
 import { MoreProject, ProjectDetails } from './Pages'
 
 import { createRoot } from "react-dom/client";
@@ -14,8 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { project } from "./Utils/Data";
-import PoshSection from "./Sections/PoshSection";
-import Contact from "./Sections/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   const router = createBrowserRouter([  
@@ -25,6 +20,7 @@ const App = () => {
           <div className="dark:bg-main-dark-bg bg-light-gray">
 
           <NavTabs />
+          
          <HeroSection />
          <AboutSection />
          <Skills />
@@ -32,6 +28,8 @@ const App = () => {
          <ProjectSection />  
           <PoshSection />
           <Contact />
+
+          <Footer />
        
          </div>  
         ),
