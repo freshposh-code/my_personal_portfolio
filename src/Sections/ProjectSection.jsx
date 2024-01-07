@@ -9,7 +9,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const ProjectSection = () => {
   return (
-    <section className={`${Styles.paddingY} ${Styles.paddingX}`}>
+    <section className={`${Styles.paddingY} ${Styles.paddingX}`} id='project'>
          <TransingText title='My Projects ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
          <p className='font-semibold text-center sm:text-lg text-base py-5 leading-7 dark:text-white'>

@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../Utils/motion'
 const AboutSection = () => {
   return (
     <>
-    <section className={`${Styles.paddingX} ${Styles.paddingY} mt-24`}>
+    <section className={`${Styles.paddingX} ${Styles.paddingY} mt-24`} id='about'>
         <TransingText title='About Me ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
 

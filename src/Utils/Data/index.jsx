@@ -1,29 +1,37 @@
 import GitHub from "@mui/icons-material/GitHub"
 import { bravaaart, css, firebase, framer, html, i18n, javascript, next, omni, poshnike, react, redux, social, tailwind, ts } from "../../assets"
-import { LinkedIn, Twitter, WhatsApp } from "@mui/icons-material"
+import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person, Science, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 
 export const navIcons = [ 
     {
-        id: '#anchor',
-        icon: 'nav'
+        id: '#home',
+        icon: <Home />
     },
     {
-        id: '#anchor',
-        icon: 'nav'
+        id: '#about',
+        icon: <Person />
     },
     {
-        id: '#anchor',
-        icon: 'nav'
+        id: '#skills',
+        icon: <Attractions />
     },
     {
-        id: '#anchor',
-        icon: 'nav'
+        id: '#journey',
+        icon: <Science />
     },
     {
-        id: '#anchor',
-        icon: 'nav'
+        id: '#project',
+        icon: <DeveloperBoard />
+    },
+    // {
+    //     id: '#poshcode',
+    //     icon: <Info />
+    // },
+    {
+        id: '#contactme',
+        icon: <ContactMail />
     },
 ]
 

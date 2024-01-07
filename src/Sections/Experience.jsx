@@ -6,7 +6,7 @@ import { experience } from '../Utils/Data';
 
 const Experience = () => {
   return (
-    <section className={`${Styles.paddingY} mt-12`}>
+    <section className={`${Styles.paddingY} mt-12`} id='journey'>
         <TransingText title='Journey & Experience ' textStyles='flex justify-center items-baseline sm:text-[1.7em] xm:text-[1.6em] text-[1.2em]' />
 
 
