@@ -8,7 +8,7 @@ const SocialIcons = () => {
     <section>
       <div className='flex gap-3'>
         {socialIcons.map((socials, index) => {
-           return <motion.div variants={zoomIn(index * 0.36, 0.53)} className='m-[5px]'>
+           return <motion.div variants={zoomIn(index * 0.36, 0.53)} className='m-[5px]' key={socials.link}>
            <a href={socials.link} target='_blank'>
              <span>{socials.icon}</span>
           </a>
