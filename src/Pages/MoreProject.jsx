@@ -10,7 +10,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const MoreProject = () => {
   return (
     <motion.section className={`${Styles.paddingY} ${Styles.paddingX}`} id='project'>
-         <TransingText title='Additional Projects ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
+         <TransingText title='Additional Projects ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl sm:py-0 py-3 mt-3' />
 
          <motion.p variants={textVariant(0.55)} className='font-semibold text-center sm:text-lg text-base py-5 leading-7 dark:text-white'>
          Welcome to my Projects Portfolio. Here, I invite you to explore a range and extented selection of my innovative and diverse projects,
@@ -52,7 +52,7 @@ const MoreProject = () => {
                 <button className='bg-black text-white dark:bg-white dark:text-black p-[6px] rounded-md text-sm'>{item.live} <Visibility style={{fontSize: '18px'}} /></button>
                 </a>
 
-                <Link to={`/detailsII`}>
+                <Link to={`/detailsII/${item.head}`}>
                 <button className='bg-black text-white dark:bg-white dark:text-black p-[6px] rounded-md text-sm'>{item.details}<ArrowForwardIcon style={{fontSize: '18px'}} /></button>
                 </Link>
              </div>

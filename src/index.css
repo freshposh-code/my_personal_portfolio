@@ -133,6 +133,10 @@
     box-shadow: 0 0 14px red;
   }
 
+  .card-crypto-shadow {
+    box-shadow: 0 0 14px rgb(72, 72, 72);
+  }
+
 @media screen and (max-width: 1025px) {
     .hero__border::before {
         /* content: ''; */

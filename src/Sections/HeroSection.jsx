@@ -31,8 +31,8 @@ const HeroSection = () => {
 
              <SocialIcons />
 
-      <a href="/">
-       <motion.button variants={fadeIn('up', 'tween', 0.99, 0.86)} className='bg-[#0000ff] text-[#f0f8ff] px-7 py-3 rounded-[33px] mt-4 text-xl'>Resume</motion.button>
+      <a href="https://docs.google.com/document/d/1o_jGUO5rOwigRPWc7O8MEaxxWD7_yX-g/edit?usp=sharing&ouid=116302030462369913828&rtpof=true&sd=true">
+       <motion.button variants={fadeIn('up', 'tween', 0.99, 0.86)} className='bg-[#0000ff] text-[#f0f8ff] px-7 py-3 rounded-[33px] mt-4 text-xl font-bold tracking-[1.6px]'>Resume</motion.button>
        </a>
         </motion.div>
       ))}

@@ -8,7 +8,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { project } from "./Utils/Data";
+import { project, projectII } from "./Utils/Data";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -43,14 +43,19 @@ const App = () => {
       }),
 
       {
-        path: "projects",
+        path: "/projects",
         element: <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>
       },
+      
+      ...projectII.map((item) => {
+        const { projectDetails, ...selectedProject } = item;
+        return  {
+          path: `/detailsII/${selectedProject.head}`,
+          element: <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetailsII projectId={selectedProject}
+           projectDetails={selectedProject.projectDeatils} /></div>
+        }
+      }),
 
-      {
-        path: `detailsII`,
-        element: <div className="dark:bg-main-dark-bg bg-light-gray"><ProjectDetailsII /></div>
-      },
     ]);
 
 

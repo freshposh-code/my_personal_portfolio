@@ -1,5 +1,5 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { bravaaart, css, defi, firebase, framer, grilli, html, i18n, javascript, netflix, next, omni, poshnike, react, redux, social, tailwind, ts, unda } from "../../assets"
+import { bravaaart, crypto, css, defi, firebase, framer, grilli, html, i18n, javascript, netflix, next, omni, poshnike, react, redux, social, tailwind, ts, unda } from "../../assets"
 import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person, Science, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
@@ -491,7 +491,7 @@ export const projectII = [
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        cardShadow: 'card-shadow',
+        cardShadow: 'card-dipol-shadow',
 
         tools: [
             {
@@ -510,10 +510,10 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: poshnike,
-                header: 'Nike Store',
-                preview: 'https://poshnike-ecommerce.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/NikeCommerce',
+                projectIMG: 'https://cdn.dribbble.com/userupload/2678983/file/original-ffc635395c22a61680c6a8524c13248f.png?resize=1024x768&vertical=center',
+                header: 'Dipoleswap',
+                preview: 'https://dipoleswap.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Dipoleswap_UI-UX',
                 cardShadow: 'card-dipol-shadow',
                 projectDetail: `Developed in early 2023, this project is an ecommerce application called "PoshNikeStore." 
                 It leverages React and Redux for state management, along with Firebase for authentication,
@@ -534,7 +534,7 @@ export const projectII = [
                    userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
                    the user experience through visual appeal and ease of navigation.`,
 
-                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
+                   languages: `#REACT #FRANERMOTION #TAILWINDCSS`
             },
         ]
     },
@@ -544,8 +544,8 @@ export const projectII = [
         projectIMG: 'https://i.pinimg.com/564x/a7/2e/e2/a72ee283575c98244ca7ce35af057514.jpg',
         github: <GitHub />,
         linkgit: 'https://github.com/freshposh-code/Netflix.app',
-        visibility: <VisibilityIcon />,
-        linkvisible: 'https://imdb-netflixclone.netlify.app/',
+        visibility: <PinterestIcon />,
+        linkvisible: 'https://www.pinterest.com/pin/606297168599210788/',
         siteLink: 'https://imdb-netflixclone.netlify.app/',
         head: 'Netflix Clone',
         tech: 'Technologies & Tools Utilized:',
@@ -570,11 +570,11 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: social,
-                header: 'Posh Media',
-                cardShadow: 'card-scl-shadow',
-                preview: 'https://poshmedia.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectIMG: 'https://i.pinimg.com/564x/a7/2e/e2/a72ee283575c98244ca7ce35af057514.jpg',
+                header: 'Netflix Clone',
+                cardShadow: 'card-net-shadow',
+                preview: 'https://imdb-netflixclone.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Netflix.app',
                 projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
                  using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
                   for an enhanced browsing experience.`,
@@ -619,11 +619,11 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: bravaaart,
-                header: 'Bravaa Art',
-                cardShadow: 'card-purp-shadow',
-                preview: 'https://bravaaart.netlify.app',
-                previewGit: 'https://github.com/freshposh-code/BravaaArt_WEBAPP',
+                projectIMG: defi,
+                header: 'Defi Trading',
+                cardShadow: 'card-defi-shadow',
+                preview: 'https://defi-unrivaled.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Defi_Website',
                 projectDetail: `Explore a diverse collection of NFTs showcasing captivating digital artwork
                  and unique templates. Our platform provides an immersive experience
                  for discovering and exploring a multitude of NFTs, offering a wide array of digital art`,
@@ -675,11 +675,11 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: social,
-                header: 'Posh Media',
-                cardShadow: 'card-scl-shadow',
-                preview: 'https://poshmedia.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectIMG: grilli,
+                header: 'Grilli Stores',
+                cardShadow: 'card-grl-shadow',
+                preview: 'https://grilli-stores.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/GRILLI-STORE',
                 projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
                  using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
                   for an enhanced browsing experience.`,
@@ -701,7 +701,7 @@ export const projectII = [
         id: 5,
         projectIMG: unda,
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/ModernCrypto-App',
+        linkgit: 'https://github.com/freshposh-code/UnderQuest-App',
         visibility: <PinterestIcon />,
         linkvisible: 'https://www.pinterest.com/pin/1105211564785581777/',
         siteLink: 'https://unda-quest.netlify.app/',
@@ -724,11 +724,11 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: omni,
-                header: 'Crypto Page',
-                cardShadow: 'card-green-shadow',
-                preview: 'https://crypto-access.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/ModernCrypto-App',
+                projectIMG: unda,
+                header: 'UNDA Quest',
+                cardShadow: 'card-unda-shadow',
+                preview: 'https://unda-quest.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/UnderQuest-App',
                 projectDetail: `The UI/UX design project is centered around a cryptocurrency
                  landing page that implements international translation features using React i18n.
                   It offers multilingual support in French, English, and Spanish, enhancing accessibility for a wider audience.`,
@@ -751,18 +751,18 @@ export const projectII = [
     },
 
     {
-        id: 2,
-        projectIMG: 'https://i.pinimg.com/564x/a7/2e/e2/a72ee283575c98244ca7ce35af057514.jpg',
+        id: 6,
+        projectIMG: crypto,
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/Netflix.app',
+        linkgit: 'https://github.com/freshposh-code/CryptoVerse-App',
         visibility: <VisibilityIcon />,
-        linkvisible: 'https://imdb-netflixclone.netlify.app/',
-        siteLink: 'https://imdb-netflixclone.netlify.app/',
-        head: 'Netflix Clone',
+        linkvisible: 'https://crypto-verse-webapp.netlify.app/',
+        siteLink: 'https://crypto-verse-webapp.netlify.app/',
+        head: 'Crypto Verse',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        cardShadow: 'card-net-shadow',
+        cardShadow: 'card-crypto-shadow',
 
         tools: [
             {
@@ -770,8 +770,8 @@ export const projectII = [
                 alt: 'react'
             },
             {
-                languages: firebase,
-                alt: 'firebase'
+                languages: redux,
+                alt: 'redux'
             },
             {
                 languages: tailwind,
@@ -781,11 +781,11 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: social,
-                header: 'Posh Media',
-                cardShadow: 'card-scl-shadow',
-                preview: 'https://poshmedia.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectIMG: crypto,
+                header: 'Crypto Verse',
+                cardShadow: 'card-crypto-shadow',
+                preview: 'https://crypto-verse-webapp.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/CryptoVerse-App',
                 projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
                  using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
                   for an enhanced browsing experience.`,

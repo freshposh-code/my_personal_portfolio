@@ -19,5 +19,6 @@ import grilli from './grilli.png'
 import unda from './undaQT.png'
 import defi from './defi.png'
 import netflix from './netflix.png'
+import crypto from './crypto.png'
 
-export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main, grilli, unda, defi, netflix}
+export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main, grilli, unda, defi, netflix, crypto}
