@@ -9,8 +9,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const MoreProject = () => {
   return (
-    <motion.section initial='hidden' whileInView='show'
-    viewport={{once: true, amount: 0.25}} className={`${Styles.paddingY} ${Styles.paddingX}`} id='project'>
+    <motion.section className={`${Styles.paddingY} ${Styles.paddingX}`} id='project'>
          <TransingText title='Additional Projects ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl' />
 
          <motion.p variants={textVariant(0.55)} className='font-semibold text-center sm:text-lg text-base py-5 leading-7 dark:text-white'>
@@ -18,9 +17,10 @@ const MoreProject = () => {
           each a testament to my creative problem-solving abilities across various technological domains,
           that further underscore my versatility. Each project demonstrates my commitment to innovation and problem-solving.</motion.p>
 
-         <div className='flex flex-wrap gap-5 mt-5 justify-center'>
+         <div className='flex flex-wrap sm:gap-12 gap-5 mt-5 justify-center'>
             {projectII.map((item, index) => (
-         <motion.div variants={fadeIn('up', 'tween', index * 0.30, 0.45)} className={`${item.cardShadow} sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative`} key={item.id}>
+         <motion.div initial='hidden' whileInView='show'
+         viewport={{once: true, amount: 0.25}} variants={fadeIn('up', 'tween', index * 0.15, 0.45)} className={`${item.cardShadow} sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative`} key={item.id}>
 
             <div>
             <img src={item.projectIMG} alt="alt" className='w-[295px] h-[290px] object-center object-cover rounded-lg' />

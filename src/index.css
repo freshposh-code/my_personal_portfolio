@@ -118,7 +118,7 @@
   }
 
   .card-unda-shadow {
-    box-shadow: 0 0 14px rgb(255, 55, 0);
+    box-shadow: 0 0 14px rgb(255, 51, 0);
   }
 
   .card-defi-shadow {
@@ -127,6 +127,10 @@
 
   .card-grl-shadow {
     box-shadow: 0 0 14px hsl(38, 100%, 50%);
+  }
+
+  .card-net-shadow {
+    box-shadow: 0 0 14px red;
   }
 
 @media screen and (max-width: 1025px) {

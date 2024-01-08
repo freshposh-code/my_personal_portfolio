@@ -1,5 +1,5 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { bravaaart, css, defi, firebase, framer, grilli, html, i18n, javascript, next, omni, poshnike, react, redux, social, tailwind, ts, unda } from "../../assets"
+import { bravaaart, css, defi, firebase, framer, grilli, html, i18n, javascript, netflix, next, omni, poshnike, react, redux, social, tailwind, ts, unda } from "../../assets"
 import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person, Science, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
@@ -538,19 +538,20 @@ export const projectII = [
             },
         ]
     },
+
     {
         id: 2,
-        projectIMG: unda,
+        projectIMG: 'https://i.pinimg.com/564x/a7/2e/e2/a72ee283575c98244ca7ce35af057514.jpg',
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/ModernCrypto-App',
-        visibility: <PinterestIcon />,
-        linkvisible: 'https://www.pinterest.com/pin/1105211564785581777/',
-        siteLink: 'https://crypto-access.netlify.app/',
-        head: 'UNDA Quest',
+        linkgit: 'https://github.com/freshposh-code/Netflix.app',
+        visibility: <VisibilityIcon />,
+        linkvisible: 'https://imdb-netflixclone.netlify.app/',
+        siteLink: 'https://imdb-netflixclone.netlify.app/',
+        head: 'Netflix Clone',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        cardShadow: 'card-unda-shadow',
+        cardShadow: 'card-net-shadow',
 
         tools: [
             {
@@ -558,39 +559,39 @@ export const projectII = [
                 alt: 'react'
             },
             {
+                languages: firebase,
+                alt: 'firebase'
+            },
+            {
                 languages: tailwind,
-                alt: 'redux'
+                alt: 'tailwind'
             },
         ],
 
         projectDeatils: [
             {
-                projectIMG: omni,
-                header: 'Crypto Page',
-                cardShadow: 'card-green-shadow',
-                preview: 'https://crypto-access.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/ModernCrypto-App',
-                projectDetail: `The UI/UX design project is centered around a cryptocurrency
-                 landing page that implements international translation features using React i18n.
-                  It offers multilingual support in French, English, and Spanish, enhancing accessibility for a wider audience.`,
+                projectIMG: social,
+                header: 'Posh Media',
+                cardShadow: 'card-scl-shadow',
+                preview: 'https://poshmedia.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
+                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
+                  for an enhanced browsing experience.`,
 
-                  tech: `International Translation:`,
-                  techdetails: `Leveraging React i18n, the project facilitates seamless
-                   translation across multiple languages.`,
+                  tech: `Dynamic CSS Effects:`,
+                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
+                   enhancing user interface interactivity and engagement.`,
 
-                   func: `Cryptocurrency Information:`,
-                   funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
-                   and insightful FAQs related to the crypto market.`,
+                   func: `Customizable Interface:`,
+                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
+                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
 
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
-                    this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing platform for the crypto community.`,
-
-                   languages: `#REACT #I18NEXT #TAILWINDCSS`
+                   languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
-
+   
     {
         id: 3,
         projectIMG: defi,
@@ -695,6 +696,112 @@ export const projectII = [
             },
         ]
     },
+
+    {
+        id: 5,
+        projectIMG: unda,
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/ModernCrypto-App',
+        visibility: <PinterestIcon />,
+        linkvisible: 'https://www.pinterest.com/pin/1105211564785581777/',
+        siteLink: 'https://unda-quest.netlify.app/',
+        head: 'UNDA Quest',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        cardShadow: 'card-unda-shadow',
+
+        tools: [
+            {
+                languages: react,
+                alt: 'react'
+            },
+            {
+                languages: tailwind,
+                alt: 'redux'
+            },
+        ],
+
+        projectDeatils: [
+            {
+                projectIMG: omni,
+                header: 'Crypto Page',
+                cardShadow: 'card-green-shadow',
+                preview: 'https://crypto-access.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/ModernCrypto-App',
+                projectDetail: `The UI/UX design project is centered around a cryptocurrency
+                 landing page that implements international translation features using React i18n.
+                  It offers multilingual support in French, English, and Spanish, enhancing accessibility for a wider audience.`,
+
+                  tech: `International Translation:`,
+                  techdetails: `Leveraging React i18n, the project facilitates seamless
+                   translation across multiple languages.`,
+
+                   func: `Cryptocurrency Information:`,
+                   funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
+                   and insightful FAQs related to the crypto market.`,
+
+                   userInter: `User Interface Highlights:`,
+                   userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
+                    this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing platform for the crypto community.`,
+
+                   languages: `#REACT #I18NEXT #TAILWINDCSS`
+            },
+        ]
+    },
+
+    {
+        id: 2,
+        projectIMG: 'https://i.pinimg.com/564x/a7/2e/e2/a72ee283575c98244ca7ce35af057514.jpg',
+        github: <GitHub />,
+        linkgit: 'https://github.com/freshposh-code/Netflix.app',
+        visibility: <VisibilityIcon />,
+        linkvisible: 'https://imdb-netflixclone.netlify.app/',
+        siteLink: 'https://imdb-netflixclone.netlify.app/',
+        head: 'Netflix Clone',
+        tech: 'Technologies & Tools Utilized:',
+        live: 'Live',
+        details: 'Project Details',
+        cardShadow: 'card-net-shadow',
+
+        tools: [
+            {
+                languages: react,
+                alt: 'react'
+            },
+            {
+                languages: firebase,
+                alt: 'firebase'
+            },
+            {
+                languages: tailwind,
+                alt: 'tailwind'
+            },
+        ],
+
+        projectDeatils: [
+            {
+                projectIMG: social,
+                header: 'Posh Media',
+                cardShadow: 'card-scl-shadow',
+                preview: 'https://poshmedia.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
+                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
+                  for an enhanced browsing experience.`,
+
+                  tech: `Dynamic CSS Effects:`,
+                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
+                   enhancing user interface interactivity and engagement.`,
+
+                   func: `Customizable Interface:`,
+                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
+                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
+
+                   languages: `#HTML #CSS #JAVASCRIPT`
+            },
+        ]
+    }
 ]
 
 export const poshcode = [
