@@ -29,7 +29,7 @@ const Footer = () => {
            </div>
 
           <div>
-          <TransingText title='Crafted by Pøsh-cødę' textStyles='font-bold sm:text-2xl xm:text-xl text-lg capitalize' me='me' />
+          <TransingText title='Crafted by Pøsh<>cødę' textStyles='font-bold sm:text-2xl xm:text-xl text-lg capitalize' me='me' />
            </div>
 
          </div>

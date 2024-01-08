@@ -113,6 +113,22 @@
     box-shadow: 0 0 14px rgb(68, 68, 68);
   }
 
+  .card-dipol-shadow {
+    box-shadow: 0 0 14px rgb(0, 0, 255);
+  }
+
+  .card-unda-shadow {
+    box-shadow: 0 0 14px rgb(255, 55, 0);
+  }
+
+  .card-defi-shadow {
+    box-shadow: 0 0 14px rgba(0, 64, 255, 0.791);
+  }
+
+  .card-grl-shadow {
+    box-shadow: 0 0 14px hsl(38, 100%, 50%);
+  }
+
 @media screen and (max-width: 1025px) {
     .hero__border::before {
         /* content: ''; */

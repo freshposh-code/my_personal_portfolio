@@ -15,5 +15,8 @@ import next from './next.png'
 import framer from './framer.png'
 import ts from './ts.png'
 import main from './mainicons.svg'
+import grilli from './grilli.png'
+import unda from './undaQT.png'
+import defi from './defi.png'
 
-export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main}
+export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main, grilli, unda, defi}

@@ -2,7 +2,7 @@ import * as React from "react";
 
 import NavTabs from './components/NavTabs'
 import { AboutSection, Contact, Experience, HeroSection, PoshSection, ProjectSection, Skills } from "./Sections";
-import { MoreProject, ProjectDetails } from './Pages'
+import { MoreProject, ProjectDetails, ProjectDetailsII } from './Pages'
 
 import {
   createBrowserRouter,
@@ -45,6 +45,11 @@ const App = () => {
       {
         path: "projects",
         element: <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>
+      },
+
+      {
+        path: `detailsII`,
+        element: <div className="dark:bg-main-dark-bg bg-light-gray"><ProjectDetailsII /></div>
       },
     ]);
 
