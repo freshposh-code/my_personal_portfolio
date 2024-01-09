@@ -33,19 +33,19 @@ export const navIcons = [
 
 export const socialIcons = [
     {
-     icon: <GitHub style={{backgroundColor: 'black', color: 'white', padding: '6px', borderRadius:'50%', fontSize: '29px',}} className="icon" />,
+     icon: <GitHub style={{ padding: '6px', borderRadius:'50%', fontSize: '31px',}} className="icon bg-black dark:bg-slate-700 text-white" />,
      link: 'https://github.com/freshposh-code'
     },
     {
-     icon: <LinkedIn style={{color: 'white', backgroundColor:'#1f41ffee', padding: '6px', borderRadius:'50%', fontSize:'29px'}} className="icon" />,
+     icon: <LinkedIn style={{color: 'white', backgroundColor:'#1f41ffee', padding: '6px', borderRadius:'50%', fontSize:'31px'}} className="icon" />,
      link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
     },
     {
-     icon: <Twitter style={{backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius:'50%', fontSize:'29px'}} className="icon" />,
+     icon: <Twitter style={{backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius:'50%', fontSize:'31px'}} className="icon" />,
      link: 'https://twitter.com/farouk_ayo'
     },
     {
-     icon: <WhatsApp style={{color: 'white', backgroundColor: 'green', padding: '6px', borderRadius:'50%', fontSize:'29px'}} className="icon" />,
+     icon: <WhatsApp style={{color: 'white', backgroundColor: 'green', padding: '6px', borderRadius:'50%', fontSize:'31px'}} className="icon" />,
      link: 'https://wa.me/+2349068620646?text=Hi%20there👋'
     },
 ]

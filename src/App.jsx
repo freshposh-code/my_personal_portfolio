@@ -21,7 +21,7 @@ const App = () => {
         path: "/",
         element: (
           <div className={currentMode === 'Dark' ? 'dark' : ''}>
-            <div className="dark:bg-main-dark-bg bg-light-gray">
+            <div className="dark:bg-black bg-light-gray">
               
           <NavTabs />
           
