@@ -4,10 +4,17 @@ import CodeOffIcon from '@mui/icons-material/Code';
 import {motion} from 'framer-motion'
 import { fadeIn, navVariants, } from '../Utils/motion';
 import { UseThemeContext } from '../ContextProvider/ThemeContext';
+import { Brightness1, Brightness4, DarkMode } from '@mui/icons-material';
 
 const NavTabs = () => {
   const [navActive, setNavActive] = useState('#')
   const {currentMode, setMode} = UseThemeContext()
+
+  // Function to toggle between Light and Dark modes
+  const toggleTheme = () => {
+    const newMode = currentMode === 'Dark' ? 'Light' : 'Dark';
+    setMode({ target: { value: newMode } });
+  };
 
   return (
     <motion.section initial='hidden' whileInView='show'
@@ -26,36 +33,14 @@ const NavTabs = () => {
               <span  className={`${navActive === `${item.id}`  ? 'scale text-white' : ''} sm:p-[7px] p-[5px] text-center`}>{item.icon}</span>
             </a>
           ))}
+             <div className="absolute top-0 flex justify-center items-center right-0 left-0 -m-2">
+        <button onClick={toggleTheme}>
+         {currentMode === 'Dark' ? <Brightness4 className='text-white' /> : <DarkMode className='text-gray-800'/>}
+        </button>
+      </div>
         </motion.div>
      </div>
-     <div className="mt-4">
-            <input
-              type="radio"
-              id="light"
-              name="theme"
-              value="Light"
-              className="cursor-pointer"
-              onChange={setMode}
-              checked={currentMode === "Light"}
-            />
-            <label htmlFor="Light" className="ml-2 text-md cursor-pointer">
-              Light
-            </label>
-          </div>
-          <div className="mt-4">
-            <input
-              type="radio"
-              id="dark"
-              name="theme"
-              value="Dark"
-              className="cursor-pointe"
-              onChange={setMode}
-              checked={currentMode === "Dark"}
-            />
-            <label htmlFor="Light" className="ml-2 text-md cursor-pointer">
-              Dark
-            </label>
-          </div>
+  
     </motion.section>
   )
 }

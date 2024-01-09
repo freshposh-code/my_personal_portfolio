@@ -33,7 +33,9 @@ const Footer = () => {
            </div>
 
          </div>
-         <motion.h1 variants={fadeIn('down', 'tween', 0.2, 0.80)} className='font-extrabold dark:text-white sm:text-lg xm:text-base text-xs text-center'> <span className="text-xl">&copy;</span> 2023-2024 All right reserve.<span className='text-[#0000ff]'>Pøsh-cødę</span></motion.h1>
+         <motion.h1 variants={fadeIn('down', 'tween', 0.2, 0.80)}
+        className='font-extrabold dark:text-white sm:text-lg xm:text-base text-xs text-center'>
+        <span className="text-xl">&copy;</span> 2023-2024 All right reserve.<span className='text-[#0000ff]'>Pøsh-cødę</span></motion.h1>
     </section>
   )
 }

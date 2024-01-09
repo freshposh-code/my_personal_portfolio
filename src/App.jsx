@@ -36,29 +36,35 @@ const App = () => {
           <Footer />
        
          </div>  
-        //  </div>
+          </div>
         ),
       },
       ...project.map((item) => {
         const { projectDetails, ...selectedProject } = item;
      return {
           path: `/details/${selectedProject.head}`,
-          element: <div className="dark:bg-main-dark-bg bg-light-gray"><ProjectDetails projectId={item.id} project={selectedProject}
+          element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
+            <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetails projectId={item.id} project={selectedProject}
            projectDetails={selectedProject.projectDeatils} /></div>
+           </div>
         }
       }),
 
       {
         path: "/projects",
-        element: <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>
+        element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
+          <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>
+        </div>
       },
       
       ...projectII.map((item) => {
         const { projectDetails, ...selectedProject } = item;
         return  {
           path: `/detailsII/${selectedProject.head}`,
-          element: <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetailsII projectId={selectedProject}
+          element:  <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
+            <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetailsII projectId={selectedProject}
            projectDetails={selectedProject.projectDeatils} /></div>
+          </div>
         }
       }),
 
