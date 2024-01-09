@@ -13,7 +13,7 @@ const PoshSection = () => {
         <TransingText title='Posh</>Code ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl absolute' />
         
         <div className="flex justify-center items-center">
-        <motion.h1 variants={zoomIn(0.70, 1)} className='sm:text-7xl xm:text-5xl text-4xl -z-0 flex justify-center absolute text-[#51515143]'>PORTFOLIO</motion.h1>
+        <motion.h1 variants={zoomIn(0.70, 1)} className='sm:text-7xl xm:text-5xl text-4xl -z-0 flex justify-center absolute text-[#51515143] dark:text-[#96969677]'>PORTFOLIO</motion.h1>
         </div>
         </div>
          
@@ -32,7 +32,7 @@ const PoshSection = () => {
         
           <div className="flex flex-wrap item-center mt-2 font-semibold gap-5 text-white dark:text-black">
             {item.description.map((sub, index) => (
-          <motion.div variants={fadeIn('up', 'tween', index* 0.5, 0.55)} className="flex items-center flex-wrap bg-[#000] px-5 py-2 rounded-[33px]">
+          <motion.div variants={fadeIn('up', 'tween', index* 0.5, 0.55)} className="flex items-center flex-wrap bg-[#000] dark:bg-white px-5 py-2 rounded-[33px]">
             <span className='w-[6px] h-[6px] mx-1 rounded-[50%] bg-white dark:bg-black '/><p>{sub.poshDesc}</p></motion.div>
             ))}
           </div>

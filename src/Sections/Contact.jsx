@@ -73,7 +73,7 @@ const Contact = () => {
         <TransingText title='Get In Touch ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl absolute' />
         
         <div className="flex justify-center items-center">
-        <motion.h1 variants={zoomIn(0.70, 1)} className='sm:text-7xl xm:text-[55px] text-4xl -z-0 flex justify-center absolute text-[#51515143]'>CONTACT</motion.h1>
+        <motion.h1 variants={zoomIn(0.70, 1)} className='sm:text-7xl xm:text-[55px] text-4xl -z-0 flex justify-center absolute text-[#51515143]  dark:text-[#96969654]'>CONTACT</motion.h1>
         </div>
         </div>
 

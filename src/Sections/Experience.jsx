@@ -12,7 +12,7 @@ const Experience = () => {
 
 <VerticalTimeline>
     {experience.map((exp) => (
-  <VerticalTimelineElement
+  <VerticalTimelineElement key={exp.apply}
     className="font-extrabold"
     contentStyle={{ background: '#000086f1', color: '#fff' }}
     contentArrowStyle={{ borderRight: '12px solid rgba(0, 0, 206, 0.945)' }}

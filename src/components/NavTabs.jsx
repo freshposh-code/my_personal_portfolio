@@ -3,9 +3,12 @@ import { navIcons } from '../Utils/Data'
 import CodeOffIcon from '@mui/icons-material/Code';
 import {motion} from 'framer-motion'
 import { fadeIn, navVariants, } from '../Utils/motion';
+import { UseThemeContext } from '../ContextProvider/ThemeContext';
 
 const NavTabs = () => {
   const [navActive, setNavActive] = useState('#')
+  const {currentMode, setMode} = UseThemeContext()
+
   return (
     <motion.section initial='hidden' whileInView='show'
     viewport={{once: false, amount: 0.25}} id='home'>
@@ -25,6 +28,34 @@ const NavTabs = () => {
           ))}
         </motion.div>
      </div>
+     <div className="mt-4">
+            <input
+              type="radio"
+              id="light"
+              name="theme"
+              value="Light"
+              className="cursor-pointer"
+              onChange={setMode}
+              checked={currentMode === "Light"}
+            />
+            <label htmlFor="Light" className="ml-2 text-md cursor-pointer">
+              Light
+            </label>
+          </div>
+          <div className="mt-4">
+            <input
+              type="radio"
+              id="dark"
+              name="theme"
+              value="Dark"
+              className="cursor-pointe"
+              onChange={setMode}
+              checked={currentMode === "Dark"}
+            />
+            <label htmlFor="Light" className="ml-2 text-md cursor-pointer">
+              Dark
+            </label>
+          </div>
     </motion.section>
   )
 }

@@ -17,7 +17,7 @@ const MoreProject = () => {
           each a testament to my creative problem-solving abilities across various technological domains,
           that further underscore my versatility. Each project demonstrates my commitment to innovation and problem-solving.</motion.p>
 
-         <div className='flex flex-wrap sm:gap-12 gap-5 mt-5 justify-center'>
+         <div className='flex flex-wrap sm:gap-5 gap-5 mt-5 sm:justify-normal justify-center'>
             {projectII.map((item, index) => (
          <motion.div initial='hidden' whileInView='show'
          viewport={{once: true, amount: 0.25}} variants={fadeIn('up', 'tween', index * 0.15, 0.45)} className={`${item.cardShadow} sm:p-[12px] xm:p-[11px] p-[9px] rounded-xl relative`} key={item.id}>

@@ -1,5 +1,5 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { bravaaart, crypto, css, defi, firebase, framer, grilli, html, i18n, javascript, netflix, next, omni, poshnike, react, redux, social, tailwind, ts, unda } from "../../assets"
+import { bravaaart, crypto, css, defi, firebase, framer, grilli, html, i18n, javascript, netflix, next, omni, poshnike, react, redux, social, tailwind, three, ts, unda } from "../../assets"
 import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person, Science, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
@@ -388,8 +388,8 @@ export const project = [
                 alt: 'framer'
             },
             {
-                languages: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/three-js-icon.png',
-                alt: 'image'
+                languages: three,
+                alt: 'three.js'
             },
             {
                 languages: tailwind,
@@ -461,8 +461,8 @@ export const project = [
                 preview: 'https://poshmedia.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
                 projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
-                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
-                  for an enhanced browsing experience.`,
+                using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
+                for an enhanced browsing experience.`,
 
                   tech: `Dynamic CSS Effects:`,
                   techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
@@ -515,24 +515,20 @@ export const projectII = [
                 preview: 'https://dipoleswap.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/Dipoleswap_UI-UX',
                 cardShadow: 'card-dipol-shadow',
-                projectDetail: `Developed in early 2023, this project is an ecommerce application called "PoshNikeStore." 
-                It leverages React and Redux for state management, along with Firebase for authentication,
-                providing users with a seamless shopping experience.`,
+                projectDetail: `DIPOLESWAP is a modern UI/UX platform utilizing React, Tailwind CSS,
+                and Framer Motion to enhance user experience. This platform focuses on storing crypto
+                assets and assigning them a tangible value. DataSwap empowers users to leverage their
+                crypto investments efficiently.`,
 
                   tech: `Technologies Utilized:`,
-                  techdetails: `Languages & Libraries:
-                  Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
-                  API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
-                   and responsive user interface.`,
-
-                   func: `Key Functionalities:`,
-                   funcdetails: `Users can perform various actions, such as:
-                   Account Management: Creating an account and securely logging in.
-                   Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
+                  techdetails: `React: For dynamic and interactive user interfaces.
+                  Tailwind CSS: Providing a modern and responsive design system.
+                  Framer Motion: Enhancing animations and transitions for a seamless user experience.`,
 
                    userInter: `User Interface Highlights:`,
-                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
-                   the user experience through visual appeal and ease of navigation.`,
+                   userInterdetails: `Simplicity & Modern Design: Modern UI/UX design with smooth animations.
+                   Crypto Asset Management: Securely stores and assigns value to crypto assets.
+                   Data Empowerment: Highlights the significance of user data in the crypto realm.`,
 
                    languages: `#REACT #FRANERMOTION #TAILWINDCSS`
             },
@@ -575,77 +571,29 @@ export const projectII = [
                 cardShadow: 'card-net-shadow',
                 preview: 'https://imdb-netflixclone.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/Netflix.app',
-                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
-                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
-                  for an enhanced browsing experience.`,
+                projectDetail: `The Netflix Clone is a comprehensive movie streaming platform offering a diverse
+                 range of movies from around the globe. Users can explore various movies based on their preferences,
+                 with an authentication system allowing them to save or like movies for easy access in their account section.
+                 The platform utilizes Firebase for user authentication and integrates Tailwind CSS for UI/UX enhancements,
+                 all built with React for app development.`,
 
-                  tech: `Dynamic CSS Effects:`,
-                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
-                   enhancing user interface interactivity and engagement.`,
+                  tech: `Key Features:`,
+                  techdetails: `Movie Collection: Offers a wide array of movies for users' viewing pleasure.
+                  User Authentication: Enables users to create accounts and save/like preferred movies.
+                  Account Section: Displays saved or liked movies for easy access within the user's account.`,
 
-                   func: `Customizable Interface:`,
-                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
-                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
+                   func: `User Highlights:`,
+                   funcdetails: `Diverse Movie Selection: Presents a vast range of movies catering to diverse preferences.
+                   Seamless Authentication: Allows users to save and personalize their movie preferences.`,
 
-                   languages: `#HTML #CSS #JAVASCRIPT`
+                   languages: `#REACT #FIREBASE #TAILWINDCSS`
             },
         ]
     },
    
+    
     {
         id: 3,
-        projectIMG: defi,
-        github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/Defi_Website',
-        visibility: <VisibilityIcon />,
-        linkvisible: 'https://defi-unrivaled.netlify.app/',
-        siteLink: 'https://defi-unrivaled.netlify.app/',
-        head: 'Defi Trading',
-        tech: 'Technologies & Tools Utilized:',
-        live: 'Live',
-        details: 'Project Details',
-        cardShadow: 'card-defi-shadow',
-
-        tools: [
-            {
-                languages: react,
-                alt: 'react'
-            },
-            {
-                languages: css,
-                alt: 'css'
-            },
-        ],
-
-        projectDeatils: [
-            {
-                projectIMG: defi,
-                header: 'Defi Trading',
-                cardShadow: 'card-defi-shadow',
-                preview: 'https://defi-unrivaled.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/Defi_Website',
-                projectDetail: `Explore a diverse collection of NFTs showcasing captivating digital artwork
-                 and unique templates. Our platform provides an immersive experience
-                 for discovering and exploring a multitude of NFTs, offering a wide array of digital art`,
-
-                  tech: `Discover New Art:`,
-                  techdetails: `
-                  Engage with an extensive range of digital artworks and NFT templates to discover new and intriguing pieces.`,
-
-                   func: `Inspirational Discoveries:`,
-                   funcdetails: ` Find inspiration and captivation in the diverse range of digital art available for exploration.`,
-
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: `Enjoy an intuitive and user-friendly interface designed with Tailwind CSS
-                    for seamless navigation and exploration.`,
-
-                   languages: `#NEXT.JS #TYPESCRIPT #FRAMERMOTION #THREE.JS #TAILWINDCSS`
-            },
-        ]
-    },
-
-    {
-        id: 4,
         projectIMG: grilli,
         github: <GitHub />,
         linkgit: 'https://github.com/freshposh-code/GRILLI-STORE',
@@ -657,7 +605,7 @@ export const projectII = [
         live: 'Live',
         details: 'Project Details',
         cardShadow: 'card-grl-shadow',
-
+        
         tools: [
             {
                 languages: html,
@@ -672,7 +620,7 @@ export const projectII = [
                 alt: 'javascript'
             },
         ],
-
+        
         projectDeatils: [
             {
                 projectIMG: grilli,
@@ -680,25 +628,24 @@ export const projectII = [
                 cardShadow: 'card-grl-shadow',
                 preview: 'https://grilli-stores.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/GRILLI-STORE',
-                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
-                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
-                  for an enhanced browsing experience.`,
-
-                  tech: `Dynamic CSS Effects:`,
-                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
-                   enhancing user interface interactivity and engagement.`,
-
-                   func: `Customizable Interface:`,
-                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
-                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
-
-                   languages: `#HTML #CSS #JAVASCRIPT`
+                projectDetail: `Grilli Stores is an online food store that showcases a diverse
+                range of food items. This platform primarily focuses on facilitating online reservations
+                and exploring various restaurant techniques. The project was crafted using HTML, CSS, and 
+                JavaScript, emphasizing UI/UX implementation, JavaScript functionality, and maintaining
+                 consistent mobile responsiveness.`,
+                
+                tech: `Key Aspect:`,
+                techdetails: `UI/UX Enhancement: Emphasizes improved user interface and experience.
+                JavaScript Implementation: Incorporates interactive functionalities.
+                Mobile Responsiveness: Ensures consistent performance across various devices.`,
+                
+                languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
-
+    
     {
-        id: 5,
+        id: 4,
         projectIMG: unda,
         github: <GitHub />,
         linkgit: 'https://github.com/freshposh-code/UnderQuest-App',
@@ -710,7 +657,7 @@ export const projectII = [
         live: 'Live',
         details: 'Project Details',
         cardShadow: 'card-unda-shadow',
-
+        
         tools: [
             {
                 languages: react,
@@ -721,7 +668,7 @@ export const projectII = [
                 alt: 'redux'
             },
         ],
-
+        
         projectDeatils: [
             {
                 projectIMG: unda,
@@ -729,29 +676,25 @@ export const projectII = [
                 cardShadow: 'card-unda-shadow',
                 preview: 'https://unda-quest.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/UnderQuest-App',
-                projectDetail: `The UI/UX design project is centered around a cryptocurrency
-                 landing page that implements international translation features using React i18n.
-                  It offers multilingual support in French, English, and Spanish, enhancing accessibility for a wider audience.`,
-
-                  tech: `International Translation:`,
-                  techdetails: `Leveraging React i18n, the project facilitates seamless
-                   translation across multiple languages.`,
-
-                   func: `Cryptocurrency Information:`,
-                   funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
-                   and insightful FAQs related to the crypto market.`,
-
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
-                    this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing platform for the crypto community.`,
-
-                   languages: `#REACT #I18NEXT #TAILWINDCSS`
+                projectDetail: `The Metaverse Showcase Platform serves as an immersive space displaying a
+                vast array of the metaverse world. It offers a comprehensive presentation of diverse metaverse 
+                realms alongside a dedicated FAQ section, providing in-depth insights into the metaverse concept.`,
+                
+                tech: `insights:`,
+                techdetails: `Intuitive UI/UX: Tailored design for an engaging and user-friendly metaverse streaming experience.`,
+                
+                userInter: 'Key Focus Areas:',
+                userInterdetails: `Understanding the core concepts and landscapes within the Metaverse.
+                Emerging Web Interactions:
+                Exploring the evolving dynamics of human interaction with the web.`,
+                
+                languages: `#REACT #TAILWINDCSS`
             },
         ]
     },
-
+    
     {
-        id: 6,
+        id: 5,
         projectIMG: crypto,
         github: <GitHub />,
         linkgit: 'https://github.com/freshposh-code/CryptoVerse-App',
@@ -763,7 +706,7 @@ export const projectII = [
         live: 'Live',
         details: 'Project Details',
         cardShadow: 'card-crypto-shadow',
-
+        
         tools: [
             {
                 languages: react,
@@ -787,27 +730,79 @@ export const projectII = [
                 preview: 'https://crypto-verse-webapp.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/CryptoVerse-App',
                 projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
-                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
-                  for an enhanced browsing experience.`,
-
-                  tech: `Dynamic CSS Effects:`,
-                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
-                   enhancing user interface interactivity and engagement.`,
-
-                   func: `Customizable Interface:`,
-                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
-                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
-
-                   languages: `#HTML #CSS #JAVASCRIPT`
+                using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
+                for an enhanced browsing experience.`,
+                
+                tech: `Dynamic CSS Effects:`,
+                techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
+                enhancing user interface interactivity and engagement.`,
+                
+                func: `Customizable Interface:`,
+                funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
+                and customizable app colors, tailoring the platform's appearance to individual preferences.`,
+                
+                languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
-    }
+    },
+
+    // {
+    //     id: 6,
+    //     projectIMG: defi,
+    //     github: <GitHub />,
+    //     linkgit: 'https://github.com/freshposh-code/Defi_Website',
+    //     visibility: <VisibilityIcon />,
+    //     linkvisible: 'https://defi-unrivaled.netlify.app/',
+    //     siteLink: 'https://defi-unrivaled.netlify.app/',
+    //     head: 'Defi Trading',
+    //     tech: 'Technologies & Tools Utilized:',
+    //     live: 'Live',
+    //     details: 'Project Details',
+    //     cardShadow: 'card-defi-shadow',
+    
+    //     tools: [
+    //         {
+    //             languages: react,
+    //             alt: 'react'
+    //         },
+    //         {
+    //             languages: css,
+    //             alt: 'css'
+    //         },
+    //     ],
+    
+    //     projectDeatils: [
+    //         {
+    //             projectIMG: defi,
+    //             header: 'Defi Trading',
+    //             cardShadow: 'card-defi-shadow',
+    //             preview: 'https://defi-unrivaled.netlify.app/',
+    //             previewGit: 'https://github.com/freshposh-code/Defi_Website',
+    //             projectDetail: `Explore a diverse collection of NFTs showcasing captivating digital artwork
+    //              and unique templates. Our platform provides an immersive experience
+    //              for discovering and exploring a multitude of NFTs, offering a wide array of digital art`,
+    
+    //               tech: `Discover New Art:`,
+    //               techdetails: `
+    //               Engage with an extensive range of digital artworks and NFT templates to discover new and intriguing pieces.`,
+    
+    //                func: `Inspirational Discoveries:`,
+    //                funcdetails: ` Find inspiration and captivation in the diverse range of digital art available for exploration.`,
+    
+    //                userInter: `User Interface Highlights:`,
+    //                userInterdetails: `Enjoy an intuitive and user-friendly interface designed with Tailwind CSS
+    //                 for seamless navigation and exploration.`,
+    
+    //                languages: `#NEXT.JS #TYPESCRIPT #FRAMERMOTION #THREE.JS #TAILWINDCSS`
+    //         },
+    //     ]
+    // },
 ]
 
 export const poshcode = [
     {
         poshHeader: 'Personal Skills',
-
+        
         description: [
             {poshDesc: 'Creativity'},
             {poshDesc: 'Team work'},

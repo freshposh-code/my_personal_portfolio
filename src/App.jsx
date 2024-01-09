@@ -10,14 +10,19 @@ import {
 } from "react-router-dom";
 import { project, projectII } from "./Utils/Data";
 import Footer from "./components/Footer";
+import { UseThemeContext } from "./ContextProvider/ThemeContext";
 
 const App = () => {
+
+  const {currentMode} = UseThemeContext();
+
   const router = createBrowserRouter([  
       {
         path: "/",
         element: (
-          <div className="dark:bg-main-dark-bg bg-light-gray">
-
+          <div className={currentMode === 'Dark' ? 'dark' : ''}>
+            <div className="dark:bg-main-dark-bg bg-light-gray">
+              
           <NavTabs />
           
          <HeroSection />
@@ -31,6 +36,7 @@ const App = () => {
           <Footer />
        
          </div>  
+        //  </div>
         ),
       },
       ...project.map((item) => {
