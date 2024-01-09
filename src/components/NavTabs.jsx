@@ -27,13 +27,13 @@ const NavTabs = () => {
 
         <div className="flex justify-center items-center">
 
-        <motion.div variants={navVariants} initial='hidden' whileInView='show' viewport={{once: true, amount: 0.25}} className="fixed bottom-0 p-4 max-w-fit rounded-[30px] m-2 bg-[#d2d2d25d] z-50">
+        <motion.div variants={navVariants} initial='hidden' whileInView='show' viewport={{once: true, amount: 0.25}} className="fixed bottom-0 p-4 max-w-fit rounded-[30px] m-2 bg-[#ababab70] dark:bg-[#ffffff3c] z-50">
           {navIcons.map((item) => (
             <a href={item.id} key={item.id} onClick={() => setNavActive(`${item.id}`)}>
               <span  className={`${navActive === `${item.id}`  ? 'scale text-white' : ''} sm:p-[7px] p-[5px] text-center`}>{item.icon}</span>
             </a>
           ))}
-             <div className="absolute top-0 flex justify-center items-center right-0 left-0 -m-2">
+             <div className="absolute top-0 flex justify-center items-center right-0 left-0 -m-[13px]">
         <button onClick={toggleTheme}>
          {currentMode === 'Dark' ? <Brightness4 className='text-white' /> : <DarkMode className='text-gray-800'/>}
         </button>
