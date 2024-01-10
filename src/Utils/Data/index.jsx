@@ -67,7 +67,7 @@ export const aboutme = [
         personalInfo: 'Freelance:',
         response: 'Available',
         personalInfo2: 'Completed Projects:',
-        response2: '27+',
+        response2: '25+',
     },
     {
         personalInfo: 'Phone:',
@@ -729,74 +729,25 @@ export const projectII = [
                 cardShadow: 'card-crypto-shadow',
                 preview: 'https://crypto-verse-webapp.netlify.app/',
                 previewGit: 'https://github.com/freshposh-code/CryptoVerse-App',
-                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
-                using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
-                for an enhanced browsing experience.`,
+                projectDetail: `CryptoVerse is a modern web application designed
+                 to provide users with a seamless experience
+                 in tracking and exploring the world of cryptocurrencies.
+                 It offers an intuitive and visually appealing user interface 
+                 created with meticulous attention to design using CSS for styling.
+                  The application harnesses the power of Redux to efficiently manage API
+                   calls and state throughout the app. Also shows global stats`,
                 
-                tech: `Dynamic CSS Effects:`,
-                techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
-                enhancing user interface interactivity and engagement.`,
+                tech: `Key Features:`,
+                techdetails: `Top Cryptocurrency Listings: Users can access real-time information about
+                 the top cryptocurrencies, including market prices, trends, market cap, and volume.
+                Latest Crypto News: Stay updated with the latest news and developments in the cryptocurrency space.
+                 The app aggregates and displays current news articles, ensuring users are informed about market trends,
+                  regulations, and technological advancements.`,
                 
-                func: `Customizable Interface:`,
-                funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
-                and customizable app colors, tailoring the platform's appearance to individual preferences.`,
-                
-                languages: `#HTML #CSS #JAVASCRIPT`
+                languages: `#REACT #REDUX #ANT-DESIGN #CSS`
             },
         ]
     },
-
-    // {
-    //     id: 6,
-    //     projectIMG: defi,
-    //     github: <GitHub />,
-    //     linkgit: 'https://github.com/freshposh-code/Defi_Website',
-    //     visibility: <VisibilityIcon />,
-    //     linkvisible: 'https://defi-unrivaled.netlify.app/',
-    //     siteLink: 'https://defi-unrivaled.netlify.app/',
-    //     head: 'Defi Trading',
-    //     tech: 'Technologies & Tools Utilized:',
-    //     live: 'Live',
-    //     details: 'Project Details',
-    //     cardShadow: 'card-defi-shadow',
-    
-    //     tools: [
-    //         {
-    //             languages: react,
-    //             alt: 'react'
-    //         },
-    //         {
-    //             languages: css,
-    //             alt: 'css'
-    //         },
-    //     ],
-    
-    //     projectDeatils: [
-    //         {
-    //             projectIMG: defi,
-    //             header: 'Defi Trading',
-    //             cardShadow: 'card-defi-shadow',
-    //             preview: 'https://defi-unrivaled.netlify.app/',
-    //             previewGit: 'https://github.com/freshposh-code/Defi_Website',
-    //             projectDetail: `Explore a diverse collection of NFTs showcasing captivating digital artwork
-    //              and unique templates. Our platform provides an immersive experience
-    //              for discovering and exploring a multitude of NFTs, offering a wide array of digital art`,
-    
-    //               tech: `Discover New Art:`,
-    //               techdetails: `
-    //               Engage with an extensive range of digital artworks and NFT templates to discover new and intriguing pieces.`,
-    
-    //                func: `Inspirational Discoveries:`,
-    //                funcdetails: ` Find inspiration and captivation in the diverse range of digital art available for exploration.`,
-    
-    //                userInter: `User Interface Highlights:`,
-    //                userInterdetails: `Enjoy an intuitive and user-friendly interface designed with Tailwind CSS
-    //                 for seamless navigation and exploration.`,
-    
-    //                languages: `#NEXT.JS #TYPESCRIPT #FRAMERMOTION #THREE.JS #TAILWINDCSS`
-    //         },
-    //     ]
-    // },
 ]
 
 export const poshcode = [
