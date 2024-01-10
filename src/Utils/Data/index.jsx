@@ -388,12 +388,12 @@ export const project = [
                 alt: 'framer'
             },
             {
-                languages: three,
-                alt: 'three.js'
-            },
-            {
                 languages: tailwind,
                 alt: 'image'
+            },
+            {
+                languages: three,
+                alt: 'three.js'
             },
         ],
 
@@ -517,7 +517,7 @@ export const projectII = [
                 cardShadow: 'card-dipol-shadow',
                 projectDetail: `DIPOLESWAP is a modern UI/UX platform utilizing React, Tailwind CSS,
                 and Framer Motion to enhance user experience. This platform focuses on storing crypto
-                assets and assigning them a tangible value. DataSwap empowers users to leverage their
+                assets and assigning them a tangible value. Dipoleswap empowers users to leverage their
                 crypto investments efficiently.`,
 
                   tech: `Technologies Utilized:`,

@@ -10,7 +10,6 @@ const NavTabs = () => {
   const [navActive, setNavActive] = useState('#')
   const {currentMode, setMode} = UseThemeContext()
 
-  // Function to toggle between Light and Dark modes
   const toggleTheme = () => {
     const newMode = currentMode === 'Dark' ? 'Light' : 'Dark';
     setMode({ target: { value: newMode } });

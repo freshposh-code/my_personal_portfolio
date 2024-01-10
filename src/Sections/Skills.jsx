@@ -42,11 +42,8 @@ const Skills = () => {
                   <CircularProgressbar
                     value={value}
                     text={`${roundedValue}%`}
-                    /* This is important to include, because if you're fully managing the
-              animation yourself, you'll want to disable the CSS animation. */
                     styles={buildStyles({ pathTransition: "none",
                 
-                    // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
         strokeLinecap: 'butt',
 
         
@@ -74,7 +71,7 @@ const Skills = () => {
 
 </div>
 
-     <div className="flex items-baseline">
+     <div className="flex items-baseline mt-5">
          <motion.h1 variants={textVariant2} className='font-extrabold sm:text-2xl xm:text-lg text-sm py-2 dark:text-white'>Other Frameworks\Tools</motion.h1>
            <span className="xs:w-3 w-2 xs:h-3 h-2 rounded-[50%] bg-black mx-2 dark:bg-white" />
       </div>

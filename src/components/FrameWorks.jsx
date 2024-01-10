@@ -3,7 +3,7 @@ import AnimatedProgressProvider from './CircularAnimation';
 import 'react-circular-progressbar/dist/styles.css';
 import { easeQuadInOut } from "d3-ease";
 import {motion} from 'framer-motion'
-import { fadeIn } from '../utils/motion';
+import { fadeIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper'
 import { circularProgressbarII } from '../Utils/Data';
 
