@@ -737,7 +737,7 @@ export const projectII = [
                  It offers an intuitive and visually appealing user interface 
                  created with meticulous attention to design using CSS for styling.
                   The application harnesses the power of Redux to efficiently manage API
-                   calls and state throughout the app. Also shows global stats`,
+                   calls and state throughout the app. Also shows global stats.`,
                 
                 tech: `Key Features:`,
                 techdetails: `Top Cryptocurrency Listings: Users can access real-time information about

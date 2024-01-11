@@ -24,7 +24,7 @@ const AboutSection = () => {
           <h1 className='sm:text-xl text-lg font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo}</span> <span className="font-black poppins dark:text-white">{item.response}</span></h1>
           <h1 className='sm:text-xl text-lg font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo2}</span> <span className="font-black poppins dark:text-white">{item.response2}</span></h1>
           </div>
-          <hr className='md:hidden flex' />
+          <hr className='sm:hidden flex' />
         </motion.div>
           ))}
           </div>

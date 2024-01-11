@@ -4,7 +4,7 @@ import CodeOffIcon from '@mui/icons-material/Code';
 import {motion} from 'framer-motion'
 import { fadeIn, navVariants, } from '../Utils/motion';
 import { UseThemeContext } from '../ContextProvider/ThemeContext';
-import { Brightness1, Brightness4, DarkMode } from '@mui/icons-material';
+import { Brightness4, DarkMode } from '@mui/icons-material';
 
 const NavTabs = () => {
   const [navActive, setNavActive] = useState('#')
@@ -18,7 +18,7 @@ const NavTabs = () => {
   return (
     <motion.section initial='hidden' whileInView='show'
     viewport={{once: false, amount: 0.25}} id='home'>
-   <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="sm:px-16 px-2">      
+   <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="sm:px-16 px-0">      
      <div className="relative p-3">
         <h1 className='font-bold xm:text-2xl dark:text-[#f0f8ff] nav__border px-6'>Posh<span className="text-[#0000ff] font-extrabold"><CodeOffIcon /></span>Code</h1>
         </div>
