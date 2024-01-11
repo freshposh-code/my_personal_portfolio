@@ -35,11 +35,14 @@ const Experience = () => {
 
    <p className="poppins"><span className="sm:text-lg text-sm font-bold">{exp.project}</span> {exp.projectII}</p>
 
-   <div className="flex justify-between items-center sm:text-lg xm:text-sm text-[11px]">
+   <div className="flex justify-between items-center sm:text-lg xm:text-sm text-[9.2px]">
 
    <a href="https://poshcarcommerce.netlify.app/" target='_blank'>
    <button className={`text-blue-900 rounded-lg ${exp.background}`}>{exp.button}</button>
    </a>
+   <a href="https://github.com/freshposh-code/CarCommerce" target='_blank'>
+  <span className={`${exp.backgroundGit}`}>{exp.github}</span>
+    </a>
    <a href="https://www.pinterest.com/pin/1105211564780888461/" target='_blank'>
    <button className={`text-blue-900 rounded-lg ${exp.background}`}>{exp.buttonII} </button>
    </a>

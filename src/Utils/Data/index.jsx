@@ -33,7 +33,7 @@ export const navIcons = [
 
 export const socialIcons = [
     {
-     icon: <GitHub style={{ padding: '6px', borderRadius:'50%', fontSize: '31px',}} className="icon bg-black dark:bg-slate-700 text-white" />,
+     icon: <GitHub style={{ padding: '6px', borderRadius:'50%', fontSize: '31px',}} className="icon bg-black dark:bg-slate-800 text-white" />,
      link: 'https://github.com/freshposh-code'
     },
     {
@@ -233,7 +233,9 @@ export const experience = [
         applyII: 'Gained expertise in Redux, Next.js (with TypeScript), Context API for state management.',
         project: 'Projects: my first ever react project. oct2022',
         background: 'bg-white sm:p-2 p-1',
+        backgroundGit: 'bg-black p-1 flex justify-center rounded-full',
         button: 'first react project',
+        github: <GitHub style={{fontSize: '1em'}} />,
         buttonII: 'Project UI'
     },
 ]
