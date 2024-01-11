@@ -18,7 +18,7 @@ const HeroSection = () => {
     }, [texts.length]);
   return (
     <>
-      <section className={`${Styles.NavpaddingX} ${Styles.paddingY} mt-10 flex justify-between flex-col lg:flex-row overflow-x-hidden`}>
+      <section className={`${Styles.NavpaddingX} ${Styles.paddingY} mt-10 flex justify-between flex-col lg:flex-row overflow-x-hidden overflow-y-hidden`}>
         <div>
       {texts.map((text, index) => (
         <motion.div variants={slideIn('left', 'tween', 0.10, 1)}
