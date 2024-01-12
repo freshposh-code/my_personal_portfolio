@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import { fadeIn, slideIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 import SocialIcons from '../components/SocialIcons';
-import { image, main } from '../assets';
+import { image, image2, main } from '../assets';
 
 const HeroSection = () => {
     const texts = ['Frontend Developer', 'Web Developer', 'React Developer', 'Web Designer']; 
