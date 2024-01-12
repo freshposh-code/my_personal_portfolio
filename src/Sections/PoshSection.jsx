@@ -28,7 +28,7 @@ const PoshSection = () => {
         <div className="flex flex-wrap gap-12">
           {poshcode.map((item) => (
             <div key={item.poshHeader}>
-        <TransingText title={item.poshHeader} textStyles='font-bold text-2xl max-w-fit hover:border-blue-700 border-b-4 duration-300' />
+        <TransingText title={item.poshHeader} textStyles='font-bold text-2xl max-w-fit hover:border-[#0000ff] border-b-4 duration-300' />
         
           <div className="flex flex-wrap item-center mt-2 font-semibold gap-5 text-white dark:text-black">
             {item.description.map((sub, index) => (

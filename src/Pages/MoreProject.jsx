@@ -63,12 +63,12 @@ const MoreProject = () => {
          </motion.div>
             ))}        
          </div>
-         <div className="mt-10 dark:text-white">
+         <div className="mt-10 dark:text-white flex justify-center flex-col items-center text-center">
           <h1 className="sm:text-6xl text-3xl font-extrabold py-2">Let's Connect!</h1>
           <h2 className='font-semibold sm:text-2xl text-lg'>let work on your project.</h2>
-          <p className='font-semibold mt-2'>You can reach out to me on <span>
+          <p className='font-semibold mt-2 text-center'>You can reach out to me on <span>
             <a href="https://wa.me/+2349068620646?text=Hi%20there" target='-blank' className='font-black sm:text-xl text-lg text-green-700'>WHATSAPP</a></span> OR <span>
-              <a href="https://twitter.com/farouk_ayo" target='-blank' className='font-black sm:text-xl text-lg text-blue-700'>TWITTER</a></span> which you prefer.</p>
+              <a href="https://twitter.com/farouk_ayo" target='-blank' className='font-black sm:text-xl text-lg text-blue-700'>TWITTER (X)</a></span> which you prefer.</p>
          </div>
 
     </motion.section>
