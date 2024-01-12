@@ -41,7 +41,7 @@ const HeroSection = () => {
 
       <motion.div variants={fadeIn('left', 'tween', 0.15, 1)}  className='lg:mt-0 mt-[35rem] relative hero__border'>
         <div className="grayscale-0 hover:grayscale-0 duration-[2000ms] dark:grayscale"> 
-        <img src={main} alt="myImage" className='sm:w-[420px] w-[400px] sm:h-[480px] h-[470px] object-cover' />
+        <img src={image} alt="myImage" className='sm:w-[420px] w-[400px] sm:h-[480px] h-[470px] object-cover' />
         </div>
       </motion.div>
       </section>
