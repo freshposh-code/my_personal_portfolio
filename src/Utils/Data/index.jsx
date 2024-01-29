@@ -4,7 +4,7 @@ import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person,
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 
-export const navIcons = [ 
+export const navIcons = [
     {
         id: '#home',
         icon: <Home />
@@ -33,20 +33,20 @@ export const navIcons = [
 
 export const socialIcons = [
     {
-     icon: <GitHub style={{ padding: '6px', borderRadius:'50%', fontSize: '31px',}} className="icon bg-black dark:bg-slate-800 text-white" />,
-     link: 'https://github.com/freshposh-code'
+        icon: <GitHub style={{ padding: '6px', borderRadius: '50%', fontSize: '31px', }} className="icon bg-black dark:bg-slate-800 text-white" />,
+        link: 'https://github.com/freshposh-code'
     },
     {
-     icon: <LinkedIn style={{color: 'white', backgroundColor:'#1f41ffee', padding: '6px', borderRadius:'50%', fontSize:'31px'}} className="icon" />,
-     link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
+        icon: <LinkedIn style={{ color: 'white', backgroundColor: '#1f41ffee', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+        link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
     },
     {
-     icon: <Twitter style={{backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius:'50%', fontSize:'31px'}} className="icon" />,
-     link: 'https://twitter.com/farouk_ayo'
+        icon: <Twitter style={{ backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+        link: 'https://twitter.com/farouk_ayo'
     },
     {
-     icon: <WhatsApp style={{color: 'white', backgroundColor: 'green', padding: '6px', borderRadius:'50%', fontSize:'31px'}} className="icon" />,
-     link: 'https://wa.me/+2349068620646?text=Hi%20there👋'
+        icon: <WhatsApp style={{ color: 'white', backgroundColor: 'green', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+        link: 'https://wa.me/+2349068620646?text=Hi%20there👋'
     },
 ]
 
@@ -75,7 +75,7 @@ export const aboutme = [
         personalInfo2: 'Email:',
         response2: 'freshposh97@..',
     },
-   
+
 ]
 
 export const circularProgressbar = [
@@ -112,7 +112,7 @@ export const circularProgressbar = [
     {
         valueStart: 0,
         valueEnd: 65.6,
-        skillText: 'NEXT<>REACT',
+        skillText: 'NEXTJS',
         skillLevel: 'intermediate'
     },
     {
@@ -235,7 +235,7 @@ export const experience = [
         background: 'bg-white sm:p-2 p-1',
         backgroundGit: 'bg-black p-1 flex justify-center rounded-full',
         button: 'first react project',
-        github: <GitHub style={{fontSize: '1em'}} />,
+        github: <GitHub style={{ fontSize: '1em' }} />,
         buttonII: 'Project UI'
     },
 ]
@@ -285,22 +285,22 @@ export const project = [
                 It leverages React and Redux for state management, along with Firebase for authentication,
                 providing users with a seamless shopping experience.`,
 
-                  tech: `Technologies Utilized:`,
-                  techdetails: `Languages & Libraries:
+                tech: `Technologies Utilized:`,
+                techdetails: `Languages & Libraries:
                   Utilized React and Redux to handle the application's functionality, integrating Firebase's Context
                   API for secure user authentication.Styling: Tailwind CSS was employed to craft a visually appealing
                    and responsive user interface.`,
 
-                   func: `Key Functionalities:`,
-                   funcdetails: `Users can perform various actions, such as:
+                func: `Key Functionalities:`,
+                funcdetails: `Users can perform various actions, such as:
                    Account Management: Creating an account and securely logging in.
                    Shopping Cart Operations: Adding, deleting, and adjusting item quantities in the cart.`,
 
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
+                userInter: `User Interface Highlights:`,
+                userInterdetails: ` The app showcases a diverse collection of Nike shoes, elevating
                    the user experience through visual appeal and ease of navigation.`,
 
-                   languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
+                languages: `#REACT #REDUX #FIREBASE #TAILWINDCSS`
             },
         ]
     },
@@ -344,19 +344,19 @@ export const project = [
                  landing page that implements international translation features using React i18n.
                   It offers multilingual support in French, English, and Spanish, enhancing accessibility for a wider audience.`,
 
-                  tech: `International Translation:`,
-                  techdetails: `Leveraging React i18n, the project facilitates seamless
+                tech: `International Translation:`,
+                techdetails: `Leveraging React i18n, the project facilitates seamless
                    translation across multiple languages.`,
 
-                   func: `Cryptocurrency Information:`,
-                   funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
+                func: `Cryptocurrency Information:`,
+                funcdetails: `Showcases trending cryptocurrencies, providing real-time market values, exchange rates, 
                    and insightful FAQs related to the crypto market.`,
 
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
+                userInter: `User Interface Highlights:`,
+                userInterdetails: ` Through the integration of React i18n, TailwindCSS for design, and a user-centric approach,
                     this project successfully demonstrates the power of UI/UX design in delivering an informative, visually appealing platform for the crypto community.`,
 
-                   languages: `#REACT #I18NEXT #TAILWINDCSS`
+                languages: `#REACT #I18NEXT #TAILWINDCSS`
             },
         ]
     },
@@ -410,18 +410,18 @@ export const project = [
                  and unique templates. Our platform provides an immersive experience
                  for discovering and exploring a multitude of NFTs, offering a wide array of digital art`,
 
-                  tech: `Discover New Art:`,
-                  techdetails: `
+                tech: `Discover New Art:`,
+                techdetails: `
                   Engage with an extensive range of digital artworks and NFT templates to discover new and intriguing pieces.`,
 
-                   func: `Inspirational Discoveries:`,
-                   funcdetails: ` Find inspiration and captivation in the diverse range of digital art available for exploration.`,
+                func: `Inspirational Discoveries:`,
+                funcdetails: ` Find inspiration and captivation in the diverse range of digital art available for exploration.`,
 
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: `Enjoy an intuitive and user-friendly interface designed with Tailwind CSS
+                userInter: `User Interface Highlights:`,
+                userInterdetails: `Enjoy an intuitive and user-friendly interface designed with Tailwind CSS
                     for seamless navigation and exploration.`,
 
-                   languages: `#NEXT.JS #TYPESCRIPT #FRAMERMOTION #THREE.JS #TAILWINDCSS`
+                languages: `#NEXT.JS #TYPESCRIPT #FRAMERMOTION #THREE.JS #TAILWINDCSS`
             },
         ]
     },
@@ -466,15 +466,15 @@ export const project = [
                 using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
                 for an enhanced browsing experience.`,
 
-                  tech: `Dynamic CSS Effects:`,
-                  techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
+                tech: `Dynamic CSS Effects:`,
+                techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
                    enhancing user interface interactivity and engagement.`,
 
-                   func: `Customizable Interface:`,
-                   funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
+                func: `Customizable Interface:`,
+                funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
                     and customizable app colors, tailoring the platform's appearance to individual preferences.`,
 
-                   languages: `#HTML #CSS #JAVASCRIPT`
+                languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
@@ -522,17 +522,17 @@ export const projectII = [
                 assets and assigning them a tangible value. Dipoleswap empowers users to leverage their
                 crypto investments efficiently.`,
 
-                  tech: `Technologies Utilized:`,
-                  techdetails: `React: For dynamic and interactive user interfaces.
+                tech: `Technologies Utilized:`,
+                techdetails: `React: For dynamic and interactive user interfaces.
                   Tailwind CSS: Providing a modern and responsive design system.
                   Framer Motion: Enhancing animations and transitions for a seamless user experience.`,
 
-                   userInter: `User Interface Highlights:`,
-                   userInterdetails: `Simplicity & Modern Design: Modern UI/UX design with smooth animations.
+                userInter: `User Interface Highlights:`,
+                userInterdetails: `Simplicity & Modern Design: Modern UI/UX design with smooth animations.
                    Crypto Asset Management: Securely stores and assigns value to crypto assets.
                    Data Empowerment: Highlights the significance of user data in the crypto realm.`,
 
-                   languages: `#REACT #FRANERMOTION #TAILWINDCSS`
+                languages: `#REACT #FRANERMOTION #TAILWINDCSS`
             },
         ]
     },
@@ -579,21 +579,21 @@ export const projectII = [
                  The platform utilizes Firebase for user authentication and integrates Tailwind CSS for UI/UX enhancements,
                  all built with React for app development.`,
 
-                  tech: `Key Features:`,
-                  techdetails: `Movie Collection: Offers a wide array of movies for users' viewing pleasure.
+                tech: `Key Features:`,
+                techdetails: `Movie Collection: Offers a wide array of movies for users' viewing pleasure.
                   User Authentication: Enables users to create accounts and save/like preferred movies.
                   Account Section: Displays saved or liked movies for easy access within the user's account.`,
 
-                   func: `User Highlights:`,
-                   funcdetails: `Diverse Movie Selection: Presents a vast range of movies catering to diverse preferences.
+                func: `User Highlights:`,
+                funcdetails: `Diverse Movie Selection: Presents a vast range of movies catering to diverse preferences.
                    Seamless Authentication: Allows users to save and personalize their movie preferences.`,
 
-                   languages: `#REACT #FIREBASE #TAILWINDCSS`
+                languages: `#REACT #FIREBASE #TAILWINDCSS`
             },
         ]
     },
-   
-    
+
+
     {
         id: 3,
         projectIMG: grilli,
@@ -607,7 +607,7 @@ export const projectII = [
         live: 'Live',
         details: 'Project Details',
         cardShadow: 'card-grl-shadow',
-        
+
         tools: [
             {
                 languages: html,
@@ -622,7 +622,7 @@ export const projectII = [
                 alt: 'javascript'
             },
         ],
-        
+
         projectDeatils: [
             {
                 projectIMG: grilli,
@@ -635,17 +635,17 @@ export const projectII = [
                 and exploring various restaurant techniques. The project was crafted using HTML, CSS, and 
                 JavaScript, emphasizing UI/UX implementation, JavaScript functionality, and maintaining
                  consistent mobile responsiveness.`,
-                
+
                 tech: `Key Aspect:`,
                 techdetails: `UI/UX Enhancement: Emphasizes improved user interface and experience.
                 JavaScript Implementation: Incorporates interactive functionalities.
                 Mobile Responsiveness: Ensures consistent performance across various devices.`,
-                
+
                 languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
-    
+
     {
         id: 4,
         projectIMG: unda,
@@ -659,7 +659,7 @@ export const projectII = [
         live: 'Live',
         details: 'Project Details',
         cardShadow: 'card-unda-shadow',
-        
+
         tools: [
             {
                 languages: react,
@@ -670,7 +670,7 @@ export const projectII = [
                 alt: 'redux'
             },
         ],
-        
+
         projectDeatils: [
             {
                 projectIMG: unda,
@@ -681,20 +681,20 @@ export const projectII = [
                 projectDetail: `The Metaverse Showcase Platform serves as an immersive space displaying a
                 vast array of the metaverse world. It offers a comprehensive presentation of diverse metaverse 
                 realms alongside a dedicated FAQ section, providing in-depth insights into the metaverse concept.`,
-                
+
                 tech: `insights:`,
                 techdetails: `Intuitive UI/UX: Tailored design for an engaging and user-friendly metaverse streaming experience.`,
-                
+
                 userInter: 'Key Focus Areas:',
                 userInterdetails: `Understanding the core concepts and landscapes within the Metaverse.
                 Emerging Web Interactions:
                 Exploring the evolving dynamics of human interaction with the web.`,
-                
+
                 languages: `#REACT #TAILWINDCSS`
             },
         ]
     },
-    
+
     {
         id: 5,
         projectIMG: crypto,
@@ -708,7 +708,7 @@ export const projectII = [
         live: 'Live',
         details: 'Project Details',
         cardShadow: 'card-crypto-shadow',
-        
+
         tools: [
             {
                 languages: react,
@@ -738,14 +738,14 @@ export const projectII = [
                  created with meticulous attention to design using CSS for styling.
                   The application harnesses the power of Redux to efficiently manage API
                    calls and state throughout the app. Also shows global stats.`,
-                
+
                 tech: `Key Features:`,
                 techdetails: `Top Cryptocurrency Listings: Users can access real-time information about
                  the top cryptocurrencies, including market prices, trends, market cap, and volume.
                 Latest Crypto News: Stay updated with the latest news and developments in the cryptocurrency space.
                  The app aggregates and displays current news articles, ensuring users are informed about market trends,
                   regulations, and technological advancements.`,
-                
+
                 languages: `#REACT #REDUX #ANT-DESIGN #CSS`
             },
         ]
@@ -755,47 +755,47 @@ export const projectII = [
 export const poshcode = [
     {
         poshHeader: 'Personal Skills',
-        
+
         description: [
-            {poshDesc: 'Creativity'},
-            {poshDesc: 'Team work'},
-            {poshDesc: 'Organisation'},
+            { poshDesc: 'Creativity' },
+            { poshDesc: 'Team work' },
+            { poshDesc: 'Organisation' },
         ],
-        
+
     },
     {
         poshHeader: 'Hobbies & Interest',
 
-        description: [         
-            {poshDesc: 'Drawing'},
-            {poshDesc: 'Music'},
-            {poshDesc: 'Coding'},
-        ]     
+        description: [
+            { poshDesc: 'Drawing' },
+            { poshDesc: 'Music' },
+            { poshDesc: 'Coding' },
+        ]
     },
     {
         poshHeader: 'Designing Skills',
 
         description: [
-          {poshDesc: 'Creativity- Planning & Strategy'},
-            {poshDesc: 'Signs and Typography- Layout'},
-           {poshDesc: 'Grid- Colour Sense - Inspiration'},
+            { poshDesc: 'Creativity- Planning & Strategy' },
+            { poshDesc: 'Signs and Typography- Layout' },
+            { poshDesc: 'Grid- Colour Sense - Inspiration' },
         ]
 
-        
+
     },
     {
         poshHeader: 'Connect with me',
 
         description: [
-          {poshDesc: '📧freshposh97@gmail.com'},
-            {poshDesc: '📞+2349068620646'},
+            { poshDesc: '📧freshposh97@gmail.com' },
+            { poshDesc: '📞+2349068620646' },
         ]
 
-        
+
     },
 ]
 
-export const footerlang  = [
+export const footerlang = [
     {
         langauage: react
     },
