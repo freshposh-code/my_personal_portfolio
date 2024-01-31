@@ -19,7 +19,7 @@ const PoshSection = () => {
 
       <div className="mt-10">
 
-        <motion.h1 variants={textVariant(0.30)} className='font-bold sm:text-lg text-sm py-4 text-center dark:text-white leading-7'>As a passionate developer, I thrive on collaboration, harnessing collective strengths
+        <motion.h1 variants={textVariant(0.30)} className='font-bold sm:text-lg text-sm py-2 text-center dark:text-white leading-7'>As a passionate developer, I thrive on collaboration, harnessing collective strengths
           to craft innovative solutions. I bring creativity
           to the forefront, not just in design but also in strategic planning,
           ensuring each project is meticulously mapped out before implementation. Apart from tech, I'm passionate about [hobbies/interests],
