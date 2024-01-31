@@ -35,12 +35,12 @@ const AboutSection = () => {
               I come from a background of self-learning in development,
               I love coding and have seen myself grow through the years. Coding has become an everyday task for me,
               constantly expanding my skills from frontend to backend and exploring mobile development.
-              <span className="font-extrabold text-2xl"> Frontend Development: </span>
+              <span className="font-extrabold sm:text-2xl text-lg"> Frontend Development: </span>
               Proficient in building responsive and intuitive UI/UX designs,
               Website to be responsive and functional across all devices.
-              <span className="font-extrabold text-2xl"> Backend Skills: </span>
+              <span className="font-extrabold sm:text-2xl text-lg"> Backend Skills: </span>
               Exploring backend technologies to complement frontend expertise.
-              <span className="font-extrabold text-2xl"> Mobile Development: </span>
+              <span className="font-extrabold sm:text-2xl text-lg"> Mobile Development: </span>
               Venturing into mobile app development to diversify skill set.
               I'm actively seeking a role in frontend development to apply and further enhance my skills.
               My goal is to excel in the tech world by creating innovative and impactful solutions.
