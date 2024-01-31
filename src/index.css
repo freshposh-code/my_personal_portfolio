@@ -25,6 +25,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(215, 215, 255);
   border-radius: 20px;
+  color: #050505;
 }
 
 .poppins {
