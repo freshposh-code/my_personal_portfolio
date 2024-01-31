@@ -28,12 +28,12 @@ const PoshSection = () => {
         <div className="flex flex-wrap gap-12">
           {poshcode.map((item) => (
             <div key={item.poshHeader}>
-              <TransingText title={item.poshHeader} textStyles='font-bold text-2xl max-w-fit hover:border-[#0000ff] border-b-4 duration-300' />
+              <TransingText title={item.poshHeader} textStyles='font-bold sm:text-2xl text-lg max-w-fit hover:border-[#0000ff] border-b-4 duration-300' />
 
               <div className="flex flex-wrap item-center mt-2 font-semibold gap-5 text-white dark:text-black">
                 {item.description.map((sub, index) => (
                   <motion.div variants={fadeIn('up', 'tween', index * 0.5, 0.55)} className="flex items-center flex-wrap bg-[#000] dark:bg-white px-5 py-2 rounded-[33px]">
-                    <span className='w-[6px] h-[6px] mx-1 rounded-[50%] bg-white dark:bg-black ' /><p>{sub.poshDesc}</p></motion.div>
+                    <span className='w-[6px] h-[6px] mx-1 rounded-[50%] bg-white dark:bg-black ' /><p className='sm:text-base text-sm'>{sub.poshDesc}</p></motion.div>
                 ))}
               </div>
             </div>
