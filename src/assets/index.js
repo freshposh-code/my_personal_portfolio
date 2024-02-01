@@ -24,4 +24,4 @@ import three from './three.png'
 import image from './myimage.jpg'
 import image2 from './myimage2.jpg'
 
-export {reactNative, html, css, javascript, react, poshnike ,redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main, grilli, unda, defi, netflix, crypto, three, image, image2}
+export { reactNative, html, css, javascript, react, poshnike, redux, tailwind, firebase, omni, social, i18n, bravaaart, next, framer, ts, main, grilli, unda, defi, netflix, crypto, three, image, image2 }
