@@ -67,7 +67,7 @@ const Contact = () => {
   }
 
   return (
-    <section className={`${Styles.paddingX} ${Styles.paddingY} bg-white dark:bg-[#101010] sm:rounded-t-[50%] rounded-t-[180px] sm:rounded-b-[10%] rounded-b-[100px] mt-6`} id="contactme">
+    <section className={`${Styles.paddingX} ${Styles.paddingY} bg-white dark:bg-[#0c0c0c] sm:rounded-t-[50%] rounded-t-[180px] sm:rounded-b-[10%] rounded-b-[100px] mt-6`} id="contactme">
 
       <div className="flex justify-center items-center sm:mt-10 mt-16">
         <TransingText title='Get In Touch ' textStyles='flex justify-center items-baseline sm:text-4xl xm:text-3xl text-2xl absolute' />
