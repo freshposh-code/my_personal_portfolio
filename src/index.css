@@ -38,8 +38,8 @@ body::-webkit-scrollbar-thumb {
   left: 16px;
   height: 25px;
   width: 25px;
-  border-top: 4px solid #0000ff;
-  border-left: 4px solid #0000ff;
+  border-top: 4px solid #2929ff;
+  border-left: 4px solid #2929ff;
 }
 
 .nav__border::after {
@@ -48,8 +48,8 @@ body::-webkit-scrollbar-thumb {
   bottom: 6px;
   height: 25px;
   width: 25px;
-  border-bottom: 4px solid #0000ff;
-  border-right: 4px solid #0000ff;
+  border-bottom: 4px solid #2929ff;
+  border-right: 4px solid #2929ff;
 }
 
 .text-item {
