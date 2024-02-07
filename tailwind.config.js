@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundColor: {
         "main-bg": "#FAFBFB",
-        "main-dark-bg": "#1b1b1b",
+        "main-dark-bg": "#191919",
         "secondary-dark-bg": "#111827",
         "light-gray": "#F7F7F7",
         "half-transparent": "rgba(0, 0, 0, 0.5)",
