@@ -38,8 +38,8 @@ body::-webkit-scrollbar-thumb {
   left: 16px;
   height: 25px;
   width: 25px;
-  border-top: 4px solid #2929ff;
-  border-left: 4px solid #2929ff;
+  border-top: 4px solid #3737ff;
+  border-left: 4px solid #3737ff;
 }
 
 .nav__border::after {
