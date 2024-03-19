@@ -4,7 +4,9 @@ const ThemeContext = createContext();
 
 export const ContextProvider = ({ children }) => {
 
-  const [currentMode, setCurrentMode] = useState("Dark");
+  const [currentMode, setCurrentMode] = useState(
+    localStorage.getItem("themeMode") || "Dark"
+  );
 
   const setMode = (e) => {
     setCurrentMode(e.target.value);
