@@ -14,66 +14,66 @@ import { UseThemeContext } from "./ContextProvider/ThemeContext";
 
 const App = () => {
 
-  const {currentMode} = UseThemeContext();
+  const { currentMode } = UseThemeContext();
 
-  const router = createBrowserRouter([  
-      {
-        path: "/",
-        element: (
-          <div className={currentMode === 'Dark' ? 'dark' : ''}>
-            <div className="dark:bg-main-dark-bg bg-light-gray">
-              
-          <NavTabs />
-          
-         <HeroSection />
-         <AboutSection />
-         <Skills />
-         <Experience />
-         <ProjectSection />  
-          <PoshSection />
-          <Contact />
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: (
+        <div className={currentMode === 'Dark' ? 'dark' : ''}>
+          <div className="dark:bg-main-dark-bg bg-light-gray">
 
-          <Footer />
-       
-         </div>  
+            <NavTabs />
+
+            <HeroSection />
+            <AboutSection />
+            <Skills />
+            <Experience />
+            <ProjectSection />
+            <PoshSection />
+            <Contact />
+
+            <Footer />
+
           </div>
-        ),
-      },
-      ...project.map((item) => {
-        const { projectDetails, ...selectedProject } = item;
-     return {
-          path: `/details/${selectedProject.head}`,
-          element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
-            <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetails projectId={item.id} project={selectedProject}
-           projectDetails={selectedProject.projectDeatils} /></div>
-           </div>
-        }
-      }),
-
-      {
-        path: "/projects",
-        element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
-          <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>
         </div>
-      },
-      
-      ...projectII.map((item) => {
-        const { projectDetails, ...selectedProject } = item;
-        return  {
-          path: `/detailsII/${selectedProject.head}`,
-          element:  <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
-            <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetailsII projectId={selectedProject}
-           projectDetails={selectedProject.projectDeatils} /></div>
-          </div>
-        }
-      }),
+      ),
+    },
+    ...project.map((item) => {
+      const { projectDetails, ...selectedProject } = item;
+      return {
+        path: `/details/${selectedProject.head}`,
+        element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
+          <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetails projectId={item.id} project={selectedProject}
+            projectDetails={selectedProject.projectDeatils} /></div>
+        </div>
+      }
+    }),
 
-    ]);
+    {
+      path: "/projects",
+      element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
+        <div className="dark:bg-main-dark-bg bg-light-gray"><MoreProject /></div>
+      </div>
+    },
+
+    ...projectII.map((item) => {
+      const { projectDetails, ...selectedProject } = item;
+      return {
+        path: `/detailsII/${selectedProject.head}`,
+        element: <div className={`${currentMode === 'Dark' ? 'dark' : ''}`}>
+          <div className="dark:bg-main-dark-bg bg-light-gray"> <ProjectDetailsII projectId={selectedProject}
+            projectDetails={selectedProject.projectDeatils} /></div>
+        </div>
+      }
+    }),
+
+  ]);
 
 
-    return (
-      <RouterProvider router={router} />
-    )
+  return (
+    <RouterProvider router={router} />
+  )
 
 
 }
