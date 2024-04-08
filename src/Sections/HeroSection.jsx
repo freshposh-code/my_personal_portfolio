@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { fadeIn, slideIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 import SocialIcons from '../components/SocialIcons';
-import { image } from '../assets';
+import { portfolioimage } from '../assets';
 
 const HeroSection = () => {
   const texts = ['Frontend Developer', 'Web Developer', 'React Developer', 'Web Designer'];
@@ -41,7 +41,7 @@ const HeroSection = () => {
 
         <motion.div variants={fadeIn('left', 'tween', 0.15, 1)} className='lg:mt-0 mt-[35rem] relative hero__border'>
           <div className="grayscale-0 hover:grayscale-0 duration-[2000ms] dark:grayscale">
-            <img src={image} alt="myImage" className='sm:w-[420px] w-[400px] sm:h-[480px] h-[470px] object-cover' />
+            <img src={portfolioimage} alt="myImage" className='sm:w-[420px] w-[400px] sm:h-[480px] h-[470px] object-cover' />
           </div>
         </motion.div>
       </section>
