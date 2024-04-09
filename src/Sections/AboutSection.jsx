@@ -22,7 +22,11 @@ const AboutSection = () => {
               <motion.div variants={fadeIn("up", "tween", index * 0.50, 0.50)} key={item.personalInfo}>
                 <div className='flex md:flex-row flex-col py-4 md:gap-14 gap-3'>
                   <h1 className='sm:text-xl text-base font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo}</span> <span className="font-black poppins dark:text-white">{item.response}</span></h1>
-                  <h1 className='sm:text-xl text-base font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo2}</span> <span className="font-black poppins dark:text-white">{item.response2}</span></h1>
+                  <h1 className='sm:text-xl text-base font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo2}</span>
+                    <a href="https://mail.google.com/mail/u/0/#inbox">
+                      <span className="font-black poppins dark:text-white">{item.response2}</span>
+                    </a>
+                  </h1>
                 </div>
                 <hr className='sm:hidden flex' />
               </motion.div>
@@ -49,7 +53,7 @@ const AboutSection = () => {
             </motion.p>
           </div>
         </div>
-      </section>
+      </section >
     </>
   )
 }
