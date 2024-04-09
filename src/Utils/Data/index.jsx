@@ -73,7 +73,7 @@ export const aboutme = [
         personalInfo: 'Phone:',
         response: '+2349068620646',
         personalInfo2: 'Email:',
-        response2: 'atomisefarouk@..',
+        response2: 'freshposh97@..',
     },
 
 ]
