@@ -33,7 +33,7 @@ const AboutSection = () => {
             ))}
 
             <h1 className='text-gray-600 dark:text-gray-500 sm:text-xl text-base font-semibold flex sm:flex-row flex-col justify-between'>Connect with me:
-              <a href="mailto:freshposh97@gmail.com">
+              <a href="mailto:atomisefarouk919@gmail.com">
                 <span className='sm:text-base text-sm text-blue-700'> atomisefarouk919@gmail.com</span>
               </a>
             </h1>
