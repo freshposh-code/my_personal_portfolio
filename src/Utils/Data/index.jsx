@@ -69,12 +69,12 @@ export const aboutme = [
         personalInfo2: 'Completed Projects:',
         response2: '25+',
     },
-    {
-        personalInfo: 'Phone:',
-        response: '+2349068620646',
-        personalInfo2: 'Email:',
-        response2: 'freshposh97@..',
-    },
+    // {
+    //     personalInfo: 'Phone:',
+    //     response: '+2349068620646',
+    //     personalInfo2: 'Email:',
+    //     response2: 'freshposh97@..',
+    // },
 
 ]
 
