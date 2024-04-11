@@ -23,9 +23,9 @@ const AboutSection = () => {
                 <div className='flex md:flex-row flex-col py-4 md:gap-14 gap-3'>
                   <h1 className='sm:text-xl text-base font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo}</span> <span className="font-black poppins dark:text-white">{item.response}</span></h1>
                   <h1 className='sm:text-xl text-base font-semibold'> <span className="text-gray-600 dark:text-gray-500">{item.personalInfo2}</span>
-                    <a href="mailto:freshposh97@gmail.com">
-                      <span className="font-black poppins dark:text-white">{item.response2}</span>
-                    </a>
+                    {/* <a href="mailto:freshposh97@gmail.com"> */}
+                    <span className="font-black poppins dark:text-white">{item.response2}</span>
+                    {/* </a> */}
                   </h1>
                 </div>
                 <hr className='sm:hidden flex' />
