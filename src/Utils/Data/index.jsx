@@ -42,7 +42,7 @@ export const socialIcons = [
         link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
     },
     {
-        icon: <XIcon style={{ backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+        icon: <XIcon style={{ backgroundColor: '#000', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
         link: 'https://twitter.com/farouk_ayo'
     },
     {
