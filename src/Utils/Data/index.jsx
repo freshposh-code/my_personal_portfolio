@@ -3,6 +3,7 @@ import { bravaaart, crypto, css, defi, firebase, framer, grilli, html, i18n, jav
 import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person, Science, Twitter, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import XIcon from '@mui/icons-material/X';
 
 export const navIcons = [
     {
@@ -41,7 +42,7 @@ export const socialIcons = [
         link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
     },
     {
-        icon: <Twitter style={{ backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+        icon: <XIcon style={{ backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
         link: 'https://twitter.com/farouk_ayo'
     },
     {
