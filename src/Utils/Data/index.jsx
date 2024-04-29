@@ -37,10 +37,10 @@ export const socialIcons = [
         icon: <GitHub style={{ padding: '6px', borderRadius: '50%', fontSize: '31px', }} className="icon bg-black dark:bg-slate-800 text-white" />,
         link: 'https://github.com/freshposh-code'
     },
-    {
-        icon: <LinkedIn style={{ color: 'white', backgroundColor: '#1f41ffee', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
-        link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
-    },
+    // {
+    //     icon: <LinkedIn style={{ color: 'white', backgroundColor: '#1f41ffee', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+    //     link: 'https://www.linkedin.com/in/farouk-ayomide-b81225290/'
+    // },
     {
         icon: <XIcon style={{ backgroundColor: '#000', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
         link: 'https://twitter.com/farouk_ayo'
