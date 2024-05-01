@@ -427,19 +427,21 @@ export const project = [
         ]
     },
 
+
+
     {
-        id: 4,
-        projectIMG: social,
+        id: 3,
+        projectIMG: grilli,
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+        linkgit: 'https://github.com/freshposh-code/GRILLI-STORE',
         visibility: <VisibilityIcon />,
-        linkvisible: 'https://poshmedia.netlify.app/',
-        siteLink: 'https://poshmedia.netlify.app/',
-        head: 'Posh Media',
+        linkvisible: 'https://grilli-stores.netlify.app/',
+        siteLink: 'https://grilli-stores.netlify.app/',
+        head: 'Grilli Store',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        cardShadow: 'card-scl-shadow',
+        cardShadow: 'card-grl-shadow',
 
         tools: [
             {
@@ -458,27 +460,28 @@ export const project = [
 
         projectDeatils: [
             {
-                projectIMG: social,
-                header: 'Posh Media',
-                cardShadow: 'card-scl-shadow',
-                preview: 'https://poshmedia.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
-                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
-                using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
-                for an enhanced browsing experience.`,
+                projectIMG: grilli,
+                header: 'Grilli Stores',
+                cardShadow: 'card-grl-shadow',
+                preview: 'https://grilli-stores.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/GRILLI-STORE',
+                projectDetail: `Grilli Stores is an online food store that showcases a diverse
+                range of food items. This platform primarily focuses on facilitating online reservations
+                and exploring various restaurant techniques. The project was crafted using HTML, CSS, and 
+                JavaScript, emphasizing UI/UX implementation, JavaScript functionality, and maintaining
+                 consistent mobile responsiveness.`,
 
-                tech: `Dynamic CSS Effects:`,
-                techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
-                   enhancing user interface interactivity and engagement.`,
-
-                func: `Customizable Interface:`,
-                funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
-                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
+                tech: `Key Aspect:`,
+                techdetails: `UI/UX Enhancement: Emphasizes improved user interface and experience.
+                JavaScript Implementation: Incorporates interactive functionalities.
+                Mobile Responsiveness: Ensures consistent performance across various devices.`,
 
                 languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
+
+
 ]
 
 export const projectII = [
@@ -594,20 +597,19 @@ export const projectII = [
         ]
     },
 
-
     {
-        id: 3,
-        projectIMG: grilli,
+        id: 4,
+        projectIMG: social,
         github: <GitHub />,
-        linkgit: 'https://github.com/freshposh-code/GRILLI-STORE',
+        linkgit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
         visibility: <VisibilityIcon />,
-        linkvisible: 'https://grilli-stores.netlify.app/',
-        siteLink: 'https://grilli-stores.netlify.app/',
-        head: 'Grilli Store',
+        linkvisible: 'https://poshmedia.netlify.app/',
+        siteLink: 'https://poshmedia.netlify.app/',
+        head: 'Posh Media',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
         details: 'Project Details',
-        cardShadow: 'card-grl-shadow',
+        cardShadow: 'card-scl-shadow',
 
         tools: [
             {
@@ -626,26 +628,28 @@ export const projectII = [
 
         projectDeatils: [
             {
-                projectIMG: grilli,
-                header: 'Grilli Stores',
-                cardShadow: 'card-grl-shadow',
-                preview: 'https://grilli-stores.netlify.app/',
-                previewGit: 'https://github.com/freshposh-code/GRILLI-STORE',
-                projectDetail: `Grilli Stores is an online food store that showcases a diverse
-                range of food items. This platform primarily focuses on facilitating online reservations
-                and exploring various restaurant techniques. The project was crafted using HTML, CSS, and 
-                JavaScript, emphasizing UI/UX implementation, JavaScript functionality, and maintaining
-                 consistent mobile responsiveness.`,
+                projectIMG: social,
+                header: 'Posh Media',
+                cardShadow: 'card-scl-shadow',
+                preview: 'https://poshmedia.netlify.app/',
+                previewGit: 'https://github.com/freshposh-code/Socail_Media-WEBAPP',
+                projectDetail: `The social media app is an engaging web platform designed for seamless user interaction and personalized customization. Developed
+                using HTML, CSS, and JavaScript, it provides a dynamic space for users to engage while offering a range of customization options
+                for an enhanced browsing experience.`,
 
-                tech: `Key Aspect:`,
-                techdetails: `UI/UX Enhancement: Emphasizes improved user interface and experience.
-                JavaScript Implementation: Incorporates interactive functionalities.
-                Mobile Responsiveness: Ensures consistent performance across various devices.`,
+                tech: `Dynamic CSS Effects:`,
+                techdetails: `JavaScript integration enables dynamic CSS effects, such as press functions,
+                   enhancing user interface interactivity and engagement.`,
+
+                func: `Customizable Interface:`,
+                funcdetails: `UEnjoy a customizable experience with font size adjustments, theme settings (light, dark, dim modes),
+                    and customizable app colors, tailoring the platform's appearance to individual preferences.`,
 
                 languages: `#HTML #CSS #JAVASCRIPT`
             },
         ]
     },
+
 
     {
         id: 4,
