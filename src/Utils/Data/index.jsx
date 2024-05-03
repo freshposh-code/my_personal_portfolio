@@ -1,6 +1,6 @@
 import GitHub from "@mui/icons-material/GitHub"
-import { bravaaart, crypto, css, defi, firebase, framer, grilli, html, i18n, javascript, next, omni, poshnike, react, redux, social, tailwind, three, ts, unda } from "../../assets"
-import { Attractions, ContactMail, DeveloperBoard, Home, Info, LinkedIn, Person, Science, Twitter, WhatsApp } from "@mui/icons-material"
+import { bravaaart, crypto, css, firebase, framer, grilli, html, i18n, javascript, next, omni, poshnike, react, redux, social, tailwind, three, ts, unda } from "../../assets"
+import { Attractions, ContactMail, DeveloperBoard, Home, Person, Science, WhatsApp } from "@mui/icons-material"
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import XIcon from '@mui/icons-material/X';
