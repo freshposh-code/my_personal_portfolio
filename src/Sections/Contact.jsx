@@ -7,7 +7,8 @@ import { motion } from 'framer-motion'
 import { slideIn, textVariant, zoomIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 import emailjs from "@emailjs/browser";
-import { Twitter, WhatsApp } from '@mui/icons-material';
+import { WhatsApp } from '@mui/icons-material';
+import XIcon from '@mui/icons-material/X';
 
 const Contact = () => {
   const formRef = useRef();
@@ -101,7 +102,7 @@ const Contact = () => {
               </a>
               OR
               <a href="https://twitter.com/farouk_ayo" target='_blank'>
-                <Twitter style={{ backgroundColor: '#4a6fff', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '29px' }} className="icon" />
+                <XIcon style={{ backgroundColor: '#000', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '29px' }} className="icon" />
               </a>
             </div>
             <h1 className="text-white font-bold sm:text-2xl text-lg">📧Connect With Me👇</h1>
