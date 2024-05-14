@@ -7,7 +7,7 @@ import SocialIcons from '../components/SocialIcons';
 import { portfolioimage } from '../assets';
 
 const HeroSection = () => {
-  const texts = ['Frontend Developer', 'Web Developer', 'React Developer', 'Web Designer'];
+  const texts = ['Frontend Developer', 'Web Developer', 'React Developer'];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
   useEffect(() => {
