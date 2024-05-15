@@ -4,7 +4,7 @@ import { main } from '../assets'
 import { Styles } from '../Utils/Style';
 import { TransingText } from '../components/CircularAnimation/CustomText';
 import { motion } from 'framer-motion'
-import { slideIn, textVariant, zoomIn } from '../Utils/motion';
+import { fadeIn, slideIn, textVariant, zoomIn } from '../Utils/motion';
 import SectionWrapper from '../HOC/SectionWrapper';
 import emailjs from "@emailjs/browser";
 import { WhatsApp } from '@mui/icons-material';
@@ -84,11 +84,11 @@ const Contact = () => {
 
       <div className="flex justify-between items-center sm:flex-row flex-col-reverse gap-6 overflow-x-hidden">
 
-        <motion.div variants={slideIn('left', 'tween', 0.5, 1)}>
+        <motion.div variants={fadeIn('down', 'tween', 0.5, 1)}>
           <img src={main} alt="icon" className='object-cover w-[100%] sm:h-[600px] h-[450px]' />
         </motion.div>
 
-        <motion.div variants={slideIn('right', 'tween', 0.0, 1)} className='bg-[#000] sm:p-3 p-2 rounded-2xl sm:w-[500px] w-[100%] m-auto mt-6'>
+        <motion.div variants={fadeIn('up', 'tween', 0.0, 1)} className='bg-[#000] sm:p-3 p-2 rounded-2xl sm:w-[500px] w-[100%] m-auto mt-6'>
 
           <form
             ref={formRef}
