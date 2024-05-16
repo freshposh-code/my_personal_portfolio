@@ -14,17 +14,12 @@
 }
 
 body::-webkit-scrollbar {
-  width: 4px;
-}
-
-
-body::-webkit-scrollbar-track {
-  background-color: #171717;
+  width: 6px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(215, 215, 255);
-  border-radius: 20px;
+  background-color: #0000ffc3;
+  border-radius: 40px;
 }
 
 .poppins {
