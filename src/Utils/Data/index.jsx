@@ -112,9 +112,9 @@ export const circularProgressbar = [
     },
     {
         valueStart: 0,
-        valueEnd: 65.6,
+        valueEnd: 78.6,
         skillText: 'NEXTJS',
-        skillLevel: 'intermediate'
+        skillLevel: 'Advance'
     },
     {
         valueStart: 0,
