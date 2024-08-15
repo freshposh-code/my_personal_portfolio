@@ -548,7 +548,7 @@ export const projectII = [
         linkgit: 'https://github.com/freshposh-code/Netflix.app',
         visibility: <PinterestIcon />,
         linkvisible: 'https://www.pinterest.com/pin/606297168599210788/',
-        siteLink: 'https://imdb-netflixclone.netlify.app/',
+        siteLink: 'https://netflix-appclone.vercel.app/',
         head: 'Netflix Clone',
         tech: 'Technologies & Tools Utilized:',
         live: 'Live',
