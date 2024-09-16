@@ -45,10 +45,10 @@ export const socialIcons = [
         icon: <XIcon style={{ backgroundColor: '#000', color: 'white', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
         link: 'https://twitter.com/farouk_ayo'
     },
-    {
-        icon: <WhatsApp style={{ color: 'white', backgroundColor: 'green', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
-        link: 'https://wa.me/+2349068620646?text=Hi%20there👋'
-    },
+    // {
+    //     icon: <WhatsApp style={{ color: 'white', backgroundColor: 'green', padding: '6px', borderRadius: '50%', fontSize: '31px' }} className="icon" />,
+    //     link: 'https://wa.me/+2349068620646?text=Hi%20there👋'
+    // },
 ]
 
 export const aboutme = [

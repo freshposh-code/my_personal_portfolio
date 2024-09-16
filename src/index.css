@@ -153,8 +153,8 @@ body::-webkit-scrollbar-thumb {
     right: -10px;
     height: 225px;
     width: 225px;
-    border-top: 6px solid #0000ff;
-    border-right: 6px solid #0000ff;
+    border-top: 6px solid #2563eb;
+    border-right: 6px solid #2563eb;
   }
 
   .hero__border::after {
@@ -164,8 +164,8 @@ body::-webkit-scrollbar-thumb {
     left: -10px;
     height: 225px;
     width: 225px;
-    border-bottom: 6px solid #0000ff;
-    border-left: 6px solid #0000ff;
+    border-bottom: 6px solid #2563eb;
+    border-left: 6px solid #2563eb;
   }
 }
 
@@ -177,6 +177,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .scale {
-  background-color: #0000ff;
+  background-color: #2563eb;
   border-radius: 50%;
 }

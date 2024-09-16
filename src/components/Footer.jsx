@@ -13,7 +13,7 @@ const Footer = () => {
 
         <motion.div variants={fadeIn('up', 'tween', 0.22, 0.80)} className="">
           <div className="relative p-3">
-            <h1 className='font-bold xm:text-2xl dark:text-[#f0f8ff] nav__border px-6'>Posh<span className="text-[#0000ff] font-extrabold"><CodeOffIcon /></span>Code</h1>
+            <h1 className='font-bold xm:text-2xl dark:text-[#f0f8ff] nav__border px-6'>Posh<span className="text-[#2563eb] font-extrabold"><CodeOffIcon /></span>Code</h1>
           </div>
         </motion.div>
 
