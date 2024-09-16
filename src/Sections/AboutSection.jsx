@@ -34,7 +34,7 @@ const AboutSection = () => {
 
             <motion.h1 variants={fadeIn("up", "tween", 0.50, 0.50)} className='text-gray-600 dark:text-gray-500 sm:text-xl text-base font-semibold flex sm:flex-row flex-col justify-between'>Connect with me:
               <a href="mailto:atomisefarouk919@gmail.com">
-                <span className='sm:text-base text-sm text-blue-700'> atomisefarouk919@gmail.com</span>
+                <span className='sm:text-base text-sm text-blue-600'> atomisefarouk919@gmail.com</span>
               </a>
             </motion.h1>
             {/* <hr className='sm:hidden flex' /> */}

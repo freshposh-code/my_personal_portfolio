@@ -52,7 +52,7 @@ const Skills = () => {
                       textSize: '20px',
 
                       // Colors
-                      pathColor: `blue`,
+                      pathColor: `#2563eb`,
                       textColor: '#767676',
                       trailColor: '#d6d6d6',
                     })}

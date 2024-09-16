@@ -28,12 +28,12 @@ const HeroSection = () => {
             >
               <p className='font-extrabold sm:text-[3rem] xm:text-[2rem] text-[1.5rem] dark:text-white max-w-[680px] sm:leading-[70.6px] xm:leading-[60px] leading-[47px] capitalize'>
                 HI there👋, <br className='md:flex hidden' /> Welcome to my portfolio. <br className='md:flex hidden' />
-                My name is farouk Ayomide Olawuyi, I'm a <br /><span className="text-[#2929ff] sm:text-[3.7rem] xm:text-[2.1rem] text-[1.6rem]">{text}</span></p>
+                My name is farouk Ayomide Olawuyi, I'm a <br /><span className="text-blue-600 sm:text-[3.7rem] xm:text-[2.1rem] text-[1.6rem]">{text}</span></p>
 
               <SocialIcons />
 
               <a href="https://docs.google.com/document/d/1o_jGUO5rOwigRPWc7O8MEaxxWD7_yX-g/edit?usp=sharing&ouid=116302030462369913828&rtpof=true&sd=true" target='_blank'>
-                <motion.button variants={fadeIn('up', 'tween', 0.99, 0.86)} className='bg-[#0000ff] text-[#f0f8ff] px-7 py-3 rounded-[33px] mt-4 text-xl font-bold tracking-[1.7px]'>Resumé</motion.button>
+                <motion.button variants={fadeIn('up', 'tween', 0.99, 0.86)} className='bg-blue-600 text-[#f0f8ff] px-7 py-3 rounded-[33px] mt-4 text-xl font-bold tracking-[1.7px]'>Resumé</motion.button>
               </a>
             </motion.div>
           ))}

@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #0000ffc3;
+  background-color: #2563eb;
   border-radius: 40px;
 }
 
@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
   left: 16px;
   height: 25px;
   width: 25px;
-  border-top: 4px solid #3737ff;
-  border-left: 4px solid #3737ff;
+  border-top: 4px solid #2563eb;
+  border-left: 4px solid #2563eb;
 }
 
 .nav__border::after {
@@ -44,8 +44,8 @@ body::-webkit-scrollbar-thumb {
   bottom: 6px;
   height: 25px;
   width: 25px;
-  border-bottom: 4px solid #2929ff;
-  border-right: 4px solid #2929ff;
+  border-bottom: 4px solid #2563eb;
+  border-right: 4px solid #2563eb;
 }
 
 .text-item {
@@ -71,8 +71,8 @@ body::-webkit-scrollbar-thumb {
   right: -35px;
   height: 225px;
   width: 225px;
-  border-top: 8px solid #0000ff;
-  border-right: 8px solid #0000ff;
+  border-top: 8px solid #2563eb;
+  border-right: 8px solid #2563eb;
 }
 
 .hero__border::after {
@@ -82,8 +82,8 @@ body::-webkit-scrollbar-thumb {
   left: -35px;
   height: 225px;
   width: 225px;
-  border-bottom: 8px solid #0000ff;
-  border-left: 8px solid #0000ff;
+  border-bottom: 8px solid #2563eb;
+  border-left: 8px solid #2563eb;
 }
 
 .icon {
