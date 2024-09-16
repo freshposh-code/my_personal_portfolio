@@ -15,7 +15,7 @@ const Experience = () => {
           <VerticalTimelineElement key={exp.apply}
             className="font-extrabold"
             contentStyle={{ background: '#2563eb', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '12px solid rgba(0, 0, 206, 0.945)' }}
+            contentArrowStyle={{ borderRight: '12px solid rgb(37, 99, 235)' }}
             icon={
               <div className='w-full h-full flex justify-center items-center'>
                 <img src={exp.language} alt="html" className='object-cover sm:w-12 w-9 sm:h-12 h-9' />
