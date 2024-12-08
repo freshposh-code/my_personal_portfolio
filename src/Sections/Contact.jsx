@@ -82,7 +82,7 @@ const Contact = () => {
         I'm always open to conversations! Your messages and feedback are valued, and I look forward to engaging with you. Feel free to get in touch  with me across various social media platforms.
         or just send me a message right away 👇.</motion.h1>
 
-      <div className="flex justify-between items-center sm:flex-row flex-col-reverse gap-6 overflow-x-hidden">
+      <div className="flex justify-between items-center lg:flex-row flex-col-reverse gap-6 overflow-x-hidden">
 
         <motion.div variants={fadeIn('down', 'tween', 0.5, 1)}>
           <img src={main} alt="icon" className='object-cover w-[100%] sm:h-[600px] h-[450px]' />
