@@ -41,7 +41,7 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <motion.p variants={textVariant(0.35)} className='font-semibold max-w-[610px] sm:leading-10 leading-8 sm:text-lg text-sm md:mt-0 mt-10 dark:text-white'>
+            <motion.p variants={textVariant(0.35)} className='font-semibold lg:max-w-[610px] w-full sm:leading-10 leading-8 sm:text-lg text-sm md:mt-0 mt-10 dark:text-white'>
               <span className="font-extrabold text-xl">HI👋,</span> i'm Farouk, I'm a self-taught frontend developer with a passion for crafting modern, user-friendly interfaces for websites,
               I come from a background of self-learning in development,
               I love coding and have seen myself grow through the years. Coding has become an everyday task for me,
