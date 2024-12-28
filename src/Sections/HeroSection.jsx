@@ -26,7 +26,7 @@ const HeroSection = () => {
               key={index}
               className={`text-item ${index === currentTextIndex ? 'active' : ''}`}
             >
-              <p className='font-extrabold sm:text-[3rem] xm:text-[1.7rem] text-[1.5rem] dark:text-white max-w-[680px] sm:leading-[70.6px] xm:leading-[60px] leading-[47px] capitalize'>
+              <p className='font-extrabold sm:text-[3rem] xm:text-[1.7rem] text-[1.5rem] dark:text-white lg:max-w-[680px] w-full sm:leading-[70.6px] xm:leading-[60px] leading-[47px] capitalize'>
                 HI there👋, <br className='md:flex hidden' /> Welcome to my portfolio. <br className='md:flex hidden' />
                 My name is farouk Ayomide Olawuyi, I'm a <br /><span className="text-blue-600 sm:text-[3.7rem] xm:text-[1.7rem] text-[1.6rem]">{text}</span></p>
 
